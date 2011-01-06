@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block h1 %}Bienvenue sur l'agregateur du GTLL{% endblock %}
+
+{% block main %}
+    <!--div class="intro">
+      <p>
+        Blah blah trop cool le GTLL.
+      </p>
+    </div-->
+
+    <div class="feedsBlock">
+      {% for entry in entries %}
+        {% if new_dates.has_key(entry) %}
+          <h3><em>{{ new_dates[entry] }}</em></h3>
+        {% endif %}
+        <h2><a href="">{{ entry.source }}</a> : <a href="{{ entry.link }}">{{ entry.title }}</a></h2>
+
+        {{ entry.content|safe }}
+      {% endfor %}
+    </div>
+{% endblock %}

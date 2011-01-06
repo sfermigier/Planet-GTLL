@@ -1,0 +1,7090 @@
+.node-unpublished {
+  background-color: #fff4f4;
+}
+
+.preview .node {
+  background-color: #ffffea;
+}
+
+#node-admin-filter ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#node-admin-buttons {
+  float: left;
+  margin-left: 0.5em;
+  clear: right;
+}
+
+td.revision-current {
+  background: #ffc;
+}
+
+.node-form .form-text {
+  display: block;
+  width: 95%;
+}
+
+.node-form .container-inline .form-text {
+  display: inline;
+  width: auto;
+}
+
+.node-form .standard {
+  clear: both;
+}
+
+.node-form textarea {
+  display: block;
+  width: 95%;
+}
+
+.node-form .attachments fieldset {
+  float: none;
+  display: block;
+}
+
+.terms-inline {
+  display: inline;
+}
+
+fieldset {
+  margin-bottom: 1em;
+  padding: .5em;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  height: 1px;
+  border: 1px solid gray;
+}
+
+img {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding-right: 1em;
+  border-bottom: 3px solid #ccc;
+}
+
+.clear-block:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clear-block {
+  display: inline-block;
+}
+
+/*_\*/
+* html .clear-block {
+  height: 1%;
+}
+
+.clear-block {
+  display: block;
+}
+
+/* End hide from IE-mac */
+
+body.drag {
+  cursor: move;
+}
+
+th.active img {
+  display: inline;
+}
+
+tr.even, tr.odd {
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+  padding: 0.1em 0.6em;
+}
+
+tr.drag {
+  background-color: #fffff0;
+}
+
+tr.drag-previous {
+  background-color: #ffd;
+}
+
+td.active {
+  background-color: #ddd;
+}
+
+td.checkbox, th.checkbox {
+  text-align: center;
+}
+
+tbody {
+  border-top: 1px solid #ccc;
+}
+
+tbody th {
+  border-bottom: 1px solid #ccc;
+}
+
+thead th {
+  text-align: left;
+  padding-right: 1em;
+  border-bottom: 3px solid #ccc;
+}
+
+.breadcrumb {
+  padding-bottom: .5em
+}
+
+div.indentation {
+  width: 20px;
+  height: 1.7em;
+  margin: -0.4em 0.2em -0.4em -0.4em;
+  padding: 0.42em 0 0.42em 0.6em;
+  float: left;
+}
+
+div.tree-child {
+  background: url(http://www.systematic-paris-region/misc/tree.png) no-repeat 11px center;
+}
+
+div.tree-child-last {
+  background: url(http://www.systematic-paris-region/misc/tree-bottom.png) no-repeat 11px center;
+}
+
+div.tree-child-horizontal {
+  background: url(http://www.systematic-paris-region/misc/tree.png) no-repeat -11px center;
+}
+
+.error {
+  color: #e55;
+}
+
+div.error {
+  border: 1px solid #d77;
+}
+
+div.error, tr.error {
+  background: #fcc;
+  color: #200;
+  padding: 2px;
+}
+
+.warning {
+  color: #e09010;
+}
+
+div.warning {
+  border: 1px solid #f0c020;
+}
+
+div.warning, tr.warning {
+  background: #ffd;
+  color: #220;
+  padding: 2px;
+}
+
+.ok {
+  color: #008000;
+}
+
+div.ok {
+  border: 1px solid #00aa00;
+}
+
+div.ok, tr.ok {
+  background: #dfd;
+  color: #020;
+  padding: 2px;
+}
+
+.item-list .icon {
+  color: #555;
+  float: right;
+  padding-left: 0.25em;
+  clear: right;
+}
+
+.item-list .title {
+  font-weight: bold;
+}
+
+.item-list ul {
+  margin: 0 0 0.75em 0;
+  padding: 0;
+}
+
+.item-list ul li {
+  margin: 0 0 0.25em 1.5em;
+  padding: 0;
+  list-style: disc;
+}
+
+ol.task-list li.active {
+  font-weight: bold;
+}
+
+.form-item {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+tr.odd .form-item, tr.even .form-item {
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+tr.merge-down, tr.merge-down td, tr.merge-down th {
+  border-bottom-width: 0 !important;
+}
+
+tr.merge-up, tr.merge-up td, tr.merge-up th {
+  border-top-width: 0 !important;
+}
+
+.form-item input.error, .form-item textarea.error, .form-item select.error {
+  border: 2px solid red;
+}
+
+.form-item .description {
+  font-size: 0.85em;
+}
+
+.form-item label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-item label.option {
+  display: inline;
+  font-weight: normal;
+}
+
+.form-checkboxes, .form-radios {
+  margin: 1em 0;
+}
+
+.form-checkboxes .form-item, .form-radios .form-item {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.marker, .form-required {
+  color: #f00;
+}
+
+.more-link {
+  text-align: right;
+}
+
+.more-help-link {
+  font-size: 0.85em;
+  text-align: right;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.item-list .pager {
+  clear: both;
+  text-align: center;
+}
+
+.item-list .pager li {
+  background-image: none;
+  display: inline;
+  list-style-type: none;
+  padding: 0.5em;
+}
+
+.pager-current {
+  font-weight: bold;
+}
+
+.tips {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 0.9em;
+}
+
+dl.multiselect dd.b, dl.multiselect dd.b .form-item, dl.multiselect dd.b select {
+  font-family: inherit;
+  font-size: inherit;
+  width: 14em;
+}
+
+dl.multiselect dd.a, dl.multiselect dd.a .form-item {
+  width: 8em;
+}
+
+dl.multiselect dt, dl.multiselect dd {
+  float: left;
+  line-height: 1.75em;
+  padding: 0;
+  margin: 0 1em 0 0;
+}
+
+dl.multiselect .form-item {
+  height: 1.75em;
+  margin: 0;
+}
+
+.container-inline div, .container-inline label {
+  display: inline;
+}
+
+ul.primary {
+  border-collapse: collapse;
+  padding: 0 0 0 1em;
+  white-space: nowrap;
+  list-style: none;
+  margin: 5px;
+  height: auto;
+  line-height: normal;
+  border-bottom: 1px solid #bbb;
+}
+
+ul.primary li {
+  display: inline;
+}
+
+ul.primary li a {
+  background-color: #ddd;
+  border-color: #bbb;
+  border-width: 1px;
+  border-style: solid solid none solid;
+  height: auto;
+  margin-right: 0.5em;
+  padding: 0 1em;
+  text-decoration: none;
+}
+
+ul.primary li.active a {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-bottom: #fff 1px solid;
+}
+
+ul.primary li a:hover {
+  background-color: #eee;
+  border-color: #ccc;
+  border-bottom-color: #eee;
+}
+
+ul.secondary {
+  border-bottom: 1px solid #bbb;
+  padding: 0.5em 1em;
+  margin: 5px;
+}
+
+ul.secondary li {
+  display: inline;
+  padding: 0 1em;
+  border-right: 1px solid #ccc;
+}
+
+ul.secondary a {
+  padding: 0;
+  text-decoration: none;
+}
+
+ul.secondary a.active {
+  border-bottom: 4px solid #999;
+}
+
+#autocomplete {
+  position: absolute;
+  border: 1px solid;
+  overflow: hidden;
+  z-index: 100;
+}
+
+#autocomplete ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#autocomplete li {
+  background: #fff;
+  color: #000;
+  white-space: pre;
+  cursor: default;
+}
+
+#autocomplete li.selected {
+  background: #0072b9;
+  color: #fff;
+}
+
+html.js input.form-autocomplete {
+  background-image: url(http://www.systematic-paris-region/misc/throbber.gif);
+  background-repeat: no-repeat;
+  background-position: 100% 2px;
+}
+
+html.js input.throbbing {
+  background-position: 100% -18px;
+}
+
+html.js fieldset.collapsed {
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  margin-bottom: 0;
+  height: 1em;
+}
+
+html.js fieldset.collapsed * {
+  display: none;
+}
+
+html.js fieldset.collapsed legend {
+  display: block;
+}
+
+html.js fieldset.collapsible legend a {
+  padding-left: 15px;
+  background: url(http://www.systematic-paris-region/misc/menu-expanded.png) 5px 75% no-repeat;
+}
+
+html.js fieldset.collapsed legend a {
+  background-image: url(http://www.systematic-paris-region/misc/menu-collapsed.png);
+  background-position: 5px 50%;
+}
+
+* html.js fieldset.collapsed legend, * html.js fieldset.collapsed legend *, * html.js fieldset.collapsed table * {
+  display: inline;
+}
+
+html.js fieldset.collapsible {
+  position: relative;
+}
+
+html.js fieldset.collapsible legend a {
+  display: block;
+}
+
+html.js fieldset.collapsible .fieldset-wrapper {
+  overflow: auto;
+}
+
+.resizable-textarea {
+  width: 95%;
+}
+
+.resizable-textarea .grippie {
+  height: 9px;
+  overflow: hidden;
+  background: #eee url(http://www.systematic-paris-region/misc/grippie.png) no-repeat center 2px;
+  border: 1px solid #ddd;
+  border-top-width: 0;
+  cursor: s-resize;
+}
+
+html.js .resizable-textarea textarea {
+  margin-bottom: 0;
+  width: 100%;
+  display: block;
+}
+
+.draggable a.tabledrag-handle {
+  cursor: move;
+  float: left;
+  height: 1.7em;
+  margin: -0.4em 0 -0.4em -0.5em;
+  padding: 0.42em 1.5em 0.42em 0.5em;
+  text-decoration: none;
+}
+
+a.tabledrag-handle:hover {
+  text-decoration: none;
+}
+
+a.tabledrag-handle .handle {
+  margin-top: 4px;
+  height: 13px;
+  width: 13px;
+  background: url(http://www.systematic-paris-region/misc/draggable.png) no-repeat 0 0;
+}
+
+a.tabledrag-handle-hover .handle {
+  background-position: 0 -20px;
+}
+
+.joined + .grippie {
+  height: 5px;
+  background-position: center 1px;
+  margin-bottom: -2px;
+}
+
+.teaser-checkbox {
+  padding-top: 1px;
+}
+
+div.teaser-button-wrapper {
+  float: right;
+  padding-right: 5%;
+  margin: 0;
+}
+
+.teaser-checkbox div.form-item {
+  float: right;
+  margin: 0 5% 0 0;
+  padding: 0;
+}
+
+textarea.teaser {
+  display: none;
+}
+
+html.js .no-js {
+  display: none;
+}
+
+.progress {
+  font-weight: bold;
+}
+
+.progress .bar {
+  background: #fff url(http://www.systematic-paris-region/misc/progress.gif);
+  border: 1px solid #00375a;
+  height: 1.5em;
+  margin: 0 0.2em;
+}
+
+.progress .filled {
+  background: #0072b9;
+  height: 1em;
+  border-bottom: 0.5em solid #004a73;
+  width: 0%;
+}
+
+.progress .percentage {
+  float: right;
+}
+
+.progress-disabled {
+  float: left;
+}
+
+.ahah-progress {
+  float: left;
+}
+
+.ahah-progress .throbber {
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+  background: transparent url(http://www.systematic-paris-region/misc/throbber.gif) no-repeat 0 -18px;
+  float: left;
+}
+
+tr .ahah-progress .throbber {
+  margin: 0 2px;
+}
+
+.ahah-progress-bar {
+  width: 16em;
+}
+
+#first-time strong {
+  display: block;
+  padding: 1.5em 0 .5em;
+}
+
+tr.selected td {
+  background: #ffc;
+}
+
+table.sticky-header {
+  margin-top: 0;
+  background: #fff;
+}
+
+#clean-url.install {
+  display: none;
+}
+
+html.js .js-hide {
+  display: none;
+}
+
+#system-modules div.incompatible {
+  font-weight: bold;
+}
+
+#system-themes-form div.incompatible {
+  font-weight: bold;
+}
+
+span.password-strength {
+  visibility: hidden;
+}
+
+input.password-field {
+  margin-right: 10px;
+}
+
+div.password-description {
+  padding: 0 2px;
+  margin: 4px 0 0 0;
+  font-size: 0.85em;
+  max-width: 500px;
+}
+
+div.password-description ul {
+  margin-bottom: 0;
+}
+
+.password-parent {
+  margin: 0 0 0 0;
+}
+
+input.password-confirm {
+  margin-right: 10px;
+}
+
+.confirm-parent {
+  margin: 5px 0 0 0;
+}
+
+span.password-confirm {
+  visibility: hidden;
+}
+
+span.password-confirm span {
+  font-weight: normal;
+}
+
+ul.menu {
+  list-style: none;
+  border: none;
+  text-align: left;
+}
+
+ul.menu li {
+  margin: 0 0 0 0.5em;
+}
+
+li.expanded {
+  list-style-type: circle;
+  list-style-image: url(http://www.systematic-paris-region/misc/menu-expanded.png);
+  padding: 0.2em 0.5em 0 0;
+  margin: 0;
+}
+
+li.collapsed {
+  list-style-type: disc;
+  list-style-image: url(http://www.systematic-paris-region/misc/menu-collapsed.png);
+  padding: 0.2em 0.5em 0 0;
+  margin: 0;
+}
+
+li.leaf {
+  list-style-type: square;
+  list-style-image: url(http://www.systematic-paris-region/misc/menu-leaf.png);
+  padding: 0.2em 0.5em 0 0;
+  margin: 0;
+}
+
+li a.active {
+  color: #000;
+}
+
+td.menu-disabled {
+  background: #ccc;
+}
+
+ul.links {
+  margin: 0;
+  padding: 0;
+}
+
+ul.links.inline {
+  display: inline;
+}
+
+ul.links li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 0.5em;
+}
+
+.block ul {
+  margin: 0;
+  padding: 0 0 0.25em 1em;
+}
+
+#permissions td.module {
+  font-weight: bold;
+}
+
+#permissions td.permission {
+  padding-left: 1.5em;
+}
+
+#access-rules .access-type, #access-rules .rule-type {
+  margin-right: 1em;
+  float: left;
+}
+
+#access-rules .access-type .form-item, #access-rules .rule-type .form-item {
+  margin-top: 0;
+}
+
+#access-rules .mask {
+  clear: both;
+}
+
+#user-login-form {
+  text-align: center;
+}
+
+#user-admin-filter ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#user-admin-buttons {
+  float: left;
+  margin-left: 0.5em;
+  clear: right;
+}
+
+#user-admin-settings fieldset .description {
+  font-size: 0.85em;
+  padding-bottom: .5em;
+}
+
+.profile {
+  clear: both;
+  margin: 1em 0;
+}
+
+.profile .picture {
+  float: right;
+  margin: 0 1em 1em 0;
+}
+
+.profile h3 {
+  border-bottom: 1px solid #ccc;
+}
+
+.profile dl {
+  margin: 0 0 1.5em 0;
+}
+
+.profile dt {
+  margin: 0 0 0.2em 0;
+  font-weight: bold;
+}
+
+.profile dd {
+  margin: 0 0 1em 0;
+}
+
+.field .field-label, .field .field-label-inline, .field .field-label-inline-first {
+  font-weight: bold;
+}
+
+.field .field-label-inline, .field .field-label-inline-first {
+  display: inline;
+}
+
+.field .field-label-inline {
+  visibility: hidden;
+}
+
+.node-form .content-multiple-table td.content-multiple-drag {
+  width: 30px;
+  padding-right: 0;
+}
+
+.node-form .content-multiple-table td.content-multiple-drag a.tabledrag-handle {
+  padding-right: .5em;
+}
+
+.node-form .content-add-more .form-submit {
+  margin: 0;
+}
+
+.node-form .number {
+  display: inline;
+  width: auto;
+}
+
+.node-form .text {
+  width: auto;
+}
+
+.form-item #autocomplete .reference-autocomplete {
+  white-space: normal;
+}
+
+.form-item #autocomplete .reference-autocomplete label {
+  display: inline;
+  font-weight: normal;
+}
+
+#content-field-overview-form .advanced-help-link, #content-display-overview-form .advanced-help-link {
+  margin: 4px 4px 0 0;
+}
+
+#content-field-overview-form .label-group, #content-display-overview-form .label-group, #content-copy-export-form .label-group {
+  font-weight: bold;
+}
+
+table#content-field-overview .label-add-new-field, table#content-field-overview .label-add-existing-field, table#content-field-overview .label-add-new-group {
+  float: left;
+}
+
+table#content-field-overview tr.content-add-new .tabledrag-changed {
+  display: none;
+}
+
+table#content-field-overview tr.content-add-new .description {
+  margin-bottom: 0;
+}
+
+table#content-field-overview .content-new {
+  font-weight: bold;
+  padding-bottom: .5em;
+}
+
+.advanced-help-topic h3, .advanced-help-topic h4, .advanced-help-topic h5, .advanced-help-topic h6 {
+  margin: 1em 0 .5em 0;
+}
+
+.advanced-help-topic dd {
+  margin-bottom: .5em;
+}
+
+.advanced-help-topic span.code {
+  background-color: #EDF1F3;
+  font-family: "Bitstream Vera Sans Mono", Monaco, "Lucida Console", monospace;
+  font-size: 0.9em;
+  padding: 1px;
+}
+
+.advanced-help-topic .content-border {
+  border: 1px solid #AAA
+}
+
+.container-inline-date {
+  width: auto;
+  clear: both;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0.5em;
+}
+
+.container-inline-date .form-item {
+  float: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container-inline-date .form-item .form-item {
+  float: left;
+}
+
+.container-inline-date .form-item, .container-inline-date .form-item input {
+  width: auto;
+}
+
+.container-inline-date .description {
+  clear: both;
+}
+
+.container-inline-date .form-item input, .container-inline-date .form-item select, .container-inline-date .form-item option {
+  margin-right: 5px;
+}
+
+.container-inline-date .date-spacer {
+  margin-left: -5px;
+}
+
+.views-right-60 .container-inline-date div {
+  padding: 0;
+  margin: 0;
+}
+
+.container-inline-date .date-timezone .form-item {
+  float: none;
+  width: auto;
+  clear: both;
+}
+
+#calendar_div, #calendar_div td, #calendar_div th {
+  margin: 0;
+  padding: 0;
+}
+
+#calendar_div, .calendar_control, .calendar_links, .calendar_header, .calendar {
+  width: 185px;
+  border-collapse: separate;
+  margin: 0;
+}
+
+.calendar td {
+  padding: 0;
+}
+
+span.date-display-single {
+}
+
+span.date-display-start {
+}
+
+span.date-display-end {
+}
+
+span.date-display-separator {
+}
+
+.date-repeat-input {
+  float: left;
+  width: auto;
+  margin-right: 5px;
+}
+
+.date-repeat-input select {
+  min-width: 7em;
+}
+
+.date-repeat fieldset {
+  clear: both;
+  float: none;
+}
+
+.date-views-filter-wrapper {
+  min-width: 250px;
+}
+
+.date-views-filter input {
+  float: left !important;
+  margin-right: 2px !important;
+  padding: 0 !important;
+  width: 12em;
+  min-width: 12em;
+}
+
+.date-nav {
+  width: 100%;
+}
+
+.date-nav div.date-prev {
+  text-align: left;
+  width: 24%;
+  float: left;
+}
+
+.date-nav div.date-next {
+  text-align: right;
+  width: 24%;
+  float: right;
+}
+
+.date-nav div.date-heading {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+.date-nav div.date-heading h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.date-clear {
+  float: none;
+  clear: both;
+  display: block;
+}
+
+.date-clear-block {
+  float: none;
+  width: auto;
+  clear: both;
+}
+
+.date-clear-block:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.date-clear-block {
+  display: inline-block;
+}
+
+/*_\*/
+* html .date-clear-block {
+  height: 1%;
+}
+
+.date-clear-block {
+  display: block;
+}
+
+/* End hide from IE-mac */
+
+.date-container .date-format-delete {
+  margin-top: 1.8em;
+  margin-left: 1.5em;
+  float: left;
+}
+
+.date-container .date-format-name {
+  float: left;
+}
+
+.date-container .date-format-type {
+  float: left;
+  padding-left: 10px;
+}
+
+.date-container .select-container {
+  clear: left;
+  float: left;
+}
+
+div.date-calendar-day {
+  line-height: 1;
+  width: 40px;
+  float: left;
+  margin: 6px 10px 0 0;
+  background: #F3F3F3;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  color: #999;
+  text-align: center;
+  font-family: Georgia, Arial, Verdana, sans;
+}
+
+div.date-calendar-day span {
+  display: block;
+  text-align: center;
+}
+
+div.date-calendar-day span.month {
+  font-size: .9em;
+  background-color: #B5BEBE;
+  color: white;
+  padding: 2px;
+  text-transform: uppercase;
+}
+
+div.date-calendar-day span.day {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+div.date-calendar-day span.year {
+  font-size: .9em;
+  padding: 2px;
+}
+
+#ui-datepicker-div table, #ui-datepicker-div td, #ui-datepicker-div th {
+  margin: 0;
+  padding: 0;
+}
+
+#ui-datepicker-div, #ui-datepicker-div table, .ui-datepicker-div, .ui-datepicker-div table, .ui-datepicker-inline, .ui-datepicker-inline table {
+  font-size: 12px !important;
+}
+
+.ui-datepicker-div, .ui-datepicker-inline, #ui-datepicker-div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none;
+  background: #ffffff;
+  border: 2px solid #d3d3d3;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 2.5em .5em .5em .5em;
+  position: relative;
+  width: 15.5em;
+}
+
+#ui-datepicker-div {
+  background: #ffffff;
+  display: none;
+  z-index: 9999;
+}
+
+.ui-datepicker-inline {
+  display: block;
+  float: left;
+}
+
+.ui-datepicker-control {
+  display: none;
+}
+
+.ui-datepicker-current {
+  display: none;
+}
+
+.ui-datepicker-next, .ui-datepicker-prev {
+  background: #e6e6e6 url(http://www.systematic-paris-region/sites/all/modules/date/date_popup/themes/images/e6e6e6_40x100_textures_02_glass_75.png) 0 50% repeat-x;
+  left: .5em;
+  position: absolute;
+  top: .5em;
+}
+
+.ui-datepicker-next {
+  left: 14.6em;
+}
+
+.ui-datepicker-next:hover, .ui-datepicker-prev:hover {
+  background: #dadada url(http://www.systematic-paris-region/sites/all/modules/date/date_popup/themes/images/dadada_40x100_textures_02_glass_75.png) 0 50% repeat-x;
+}
+
+.ui-datepicker-next a, .ui-datepicker-prev a {
+  background: url(http://www.systematic-paris-region/sites/all/modules/date/date_popup/themes/images/888888_7x7_arrow_left.gif) 50% 50% no-repeat;
+  border: 1px solid #d3d3d3;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  height: 1.4em;
+  text-indent: -999999px;
+  width: 1.3em;
+}
+
+.ui-datepicker-next a {
+  background: url(http://www.systematic-paris-region/sites/all/modules/date/date_popup/themes/images/888888_7x7_arrow_right.gif) 50% 50% no-repeat;
+}
+
+.ui-datepicker-prev a:hover {
+  background: url(http://www.systematic-paris-region/sites/all/modules/date/date_popup/themes/images/454545_7x7_arrow_left.gif) 50% 50% no-repeat;
+}
+
+.ui-datepicker-next a:hover {
+  background: url(http://www.systematic-paris-region/sites/all/modules/date/date_popup/themes/images/454545_7x7_arrow_right.gif) 50% 50% no-repeat;
+}
+
+.ui-datepicker-prev a:active {
+  background: url(http://www.systematic-paris-region/sites/all/modules/date/date_popup/themes/images/222222_7x7_arrow_left.gif) 50% 50% no-repeat;
+}
+
+.ui-datepicker-next a:active {
+  background: url(http://www.systematic-paris-region/sites/all/modules/date/date_popup/themes/images/222222_7x7_arrow_right.gif) 50% 50% no-repeat;
+}
+
+.ui-datepicker-header select {
+  background: #e6e6e6;
+  border: 1px solid #d3d3d3;
+  color: #555555;
+  font-size: 1em;
+  line-height: 1.4em;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: absolute;
+  top: .5em;
+}
+
+.ui-datepicker-header select.ui-datepicker-new-month {
+  left: 2.2em;
+  width: 7em;
+}
+
+.ui-datepicker-header select.ui-datepicker-new-year {
+  left: 9.4em;
+  width: 5em;
+}
+
+table.ui-datepicker {
+  text-align: right;
+  width: 15.5em;
+}
+
+table.ui-datepicker td a {
+  color: #555555;
+  display: block;
+  padding: .1em .3em .1em 0;
+  text-decoration: none;
+}
+
+table.ui-datepicker tbody {
+  border-top: none;
+}
+
+table.ui-datepicker tbody td a {
+  background: #e6e6e6 url(http://www.systematic-paris-region/sites/all/modules/date/date_popup/themes/images/e6e6e6_40x100_textures_02_glass_75.png) 0 50% repeat-x;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+table.ui-datepicker tbody td a:hover {
+  background: #dadada url(http://www.systematic-paris-region/sites/all/modules/date/date_popup/themes/images/dadada_40x100_textures_02_glass_75.png) 0 50% repeat-x;
+  border: 1px solid #999999;
+  color: #212121;
+}
+
+table.ui-datepicker tbody td a:active {
+  background: #ffffff url(http://www.systematic-paris-region/sites/all/modules/date/date_popup/themes/images/ffffff_40x100_textures_02_glass_65.png) 0 50% repeat-x;
+  border: 1px solid #dddddd;
+  color: #222222;
+}
+
+table.ui-datepicker .ui-datepicker-title-row td {
+  color: #222222;
+  font-size: .9em;
+  padding: .3em 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table.ui-datepicker .ui-datepicker-title-row td a {
+  color: #222222;
+}
+
+.timeEntry_control {
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+* html .timeEntry_control {
+  margin-top: -4px;
+}
+
+.fake-leaf {
+  font-size: 8pt;
+  font-style: italic;
+}
+
+li.start-collapsed ul {
+  display: none;
+}
+
+.filefield-icon {
+  margin: 0 2px 0 0;
+}
+
+.filefield-element {
+  margin: 1em 0;
+  white-space: normal;
+}
+
+.filefield-element .widget-preview {
+  float: left;
+  padding: 0 10px 0 0;
+  margin: 0 10px 0 0;
+  border-width: 0 1px 0 0;
+  border-style: solid;
+  border-color: #CCC;
+  max-width: 30%;
+}
+
+.filefield-element .widget-edit {
+  float: left;
+  max-width: 70%;
+}
+
+.filefield-element .filefield-preview {
+  width: 16em;
+  overflow: hidden;
+}
+
+.filefield-element .widget-edit .form-item {
+  margin: 0 0 1em 0;
+}
+
+.filefield-element input.form-submit, .filefield-element input.form-file {
+  margin: 0;
+}
+
+.filefield-element input.progress-disabled {
+  float: none;
+  display: inline;
+}
+
+.filefield-element div.ahah-progress, .filefield-element div.throbber {
+  display: inline;
+  float: none;
+  padding: 1px 13px 2px 3px;
+}
+
+.filefield-element div.ahah-progress-bar {
+  display: none;
+  margin-top: 4px;
+  width: 28em;
+  padding: 0;
+}
+
+.filefield-element div.ahah-progress-bar div.bar {
+  margin: 0;
+}
+
+.simplenews-subscription-filter .form-item {
+  clear: both;
+  line-height: 1.75em;
+  margin: 0pt 1em 0pt 0pt;
+}
+
+.simplenews-subscription-filter .form-item label {
+  float: left;
+  width: 12em;
+}
+
+.simplenews-subscription-filter .spacer {
+  margin-left: 12em;
+}
+
+.simplenews-subscription-filter .form-select, .simplenews-subscription-filter .form-text {
+  width: 14em;
+}
+
+.block-simplenews .issues-link, .block-simplenews .issues-list {
+  margin-top: 1em;
+}
+
+.block-simplenews .issues-list .newsletter-created {
+  display: none;
+}
+
+.wrapper.tagadelic {
+  text-align: justify;
+  margin-right: 1em;
+}
+
+.tagadelic.level1 {
+  font-size: 1em;
+}
+
+.tagadelic.level2 {
+  font-size: 1.2em;
+}
+
+.tagadelic.level3 {
+  font-size: 1.4em;
+}
+
+.tagadelic.level4 {
+  font-size: 1.6em;
+}
+
+.tagadelic.level5 {
+  font-size: 1.8em;
+}
+
+.tagadelic.level6 {
+  font-size: 2em;
+}
+
+.tagadelic.level7 {
+  font-size: 2.2em;
+}
+
+.tagadelic.level8 {
+  font-size: 2.4em;
+}
+
+.tagadelic.level9 {
+  font-size: 2.6em;
+}
+
+.tagadelic.level10 {
+  font-size: 2.8em;
+}
+
+.views_slideshow_singleframe_no_display, .views_slideshow_singleframe_hidden, .views_slideshow_singleframe_controls, .views_slideshow_singleframe_image_count {
+  display: none;
+}
+
+.views_slideshow_singleframe_pager div a img {
+  width: 75px;
+  height: 75px;
+}
+
+.views_slideshow_singleframe_pager div {
+  display: inline;
+  padding-left: 10px;
+}
+
+.views_slideshow_singleframe_pager.thumbnails a.activeSlide img {
+  border: 3px solid #000;
+}
+
+.views_slideshow_singleframe_pager.numbered a.activeSlide {
+  text-decoration: underline;
+}
+
+.views_slideshow_thumbnailhover_no_display, .views_slideshow_thumbnailhover_hidden, .views_slideshow_thumbnailhover_controls, .views_slideshow_thumbnailhover_image_count {
+  display: none;
+}
+
+.calendar-calendar tr.odd, .calendar-calendar tr.even {
+  background-color: #fff;
+}
+
+.calendar-calendar table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.calendar-calendar .month-view table {
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.calendar-calendar .year-view td {
+  width: 32%;
+  padding: 1px;
+  border: none;
+}
+
+.calendar-calendar .year-view td table td {
+  width: 13%;
+  padding: 0;
+}
+
+.calendar-calendar tr {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+.calendar-calendar th {
+  color: #fff;
+  background-color: #ccc;
+  text-align: center;
+  margin: 0;
+}
+
+.calendar-calendar th a {
+  font-weight: bold;
+  color: #fff;
+  background-color: #ccc;
+}
+
+.calendar-calendar td {
+  width: 12%;
+  min-width: 12%;
+  border: 1px solid #ccc;
+  color: #777;
+  text-align: right;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar-calendar .mini {
+  border: none;
+}
+
+.calendar-calendar td.week {
+  width: 1%;
+  min-width: 1%;
+}
+
+.calendar-calendar .week {
+  clear: both;
+  font-style: normal;
+  color: #555;
+  font-size: 0.8em;
+}
+
+.calendar-calendar .week a {
+  font-weight: normal;
+}
+
+.calendar-calendar .inner {
+  min-height: 5em;
+  height: auto !important;
+  height: 5em;
+  padding: 0;
+  margin: 0;
+}
+
+.calendar-calendar .inner div {
+  padding: 0;
+  margin: 0;
+}
+
+.calendar-calendar .inner p {
+  padding: 0 0 .8em 0;
+  margin: 0;
+}
+
+.calendar-calendar td a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.calendar-calendar td a:hover {
+  text-decoration: underline;
+}
+
+.calendar-calendar td.year, .calendar-calendar td.month {
+  text-align: center;
+}
+
+.calendar-calendar th.days {
+  color: #ccc;
+  background-color: #224;
+  text-align: center;
+  padding: 1px;
+  margin: 0;
+}
+
+.calendar-calendar div.day {
+  float: right;
+  text-align: center;
+  padding: 0.125em 0.25em 0 0.25em;
+  margin: 0;
+  background-color: #f3f3f3;
+  border: 1px solid gray;
+  border-width: 0 0 1px 1px;
+  clear: both;
+  width: 1.5em;
+}
+
+.calendar-calendar div.calendar {
+  background-color: #fff;
+  border: solid 1px #ddd;
+  text-align: left;
+  margin: 0 .25em .25em 0;
+  width: 96%;
+  float: right;
+  clear: both;
+}
+
+.calendar-calendar .day-view div.calendar {
+  float: none;
+  width: 98%;
+  margin: 1% 1% 0 1%;
+}
+
+.calendar-calendar div.title {
+  font-size: .8em;
+  text-align: center;
+}
+
+.calendar-calendar div.title a {
+  color: #000;
+}
+
+.calendar-calendar div.title a:hover {
+  color: #c00;
+}
+
+.calendar-calendar .content {
+  clear: both;
+  padding: 3px;
+  padding-left: 5px;
+}
+
+.calendar div.form-item {
+  white-space: normal;
+}
+
+table td.mini, table th.mini, table.mini td.week {
+  padding: 0 1px 0 0;
+  margin: 0;
+}
+
+table td.mini a {
+  font-weight: normal;
+}
+
+.calendar-calendar .mini-day-off {
+  padding: 0;
+}
+
+.calendar-calendar .mini-day-on {
+  padding: 0;
+}
+
+table .mini-day-on a {
+  text-decoration: underline;
+}
+
+.calendar-calendar .mini .title {
+  font-size: .8em;
+}
+
+.mini .calendar-calendar .week {
+  font-size: .7em;
+}
+
+.mini-row {
+  width: 100%;
+  border: none;
+}
+
+.mini {
+  width: 32%;
+  vertical-align: top;
+}
+
+.calendar-calendar .stripe {
+  height: 5px;
+  width: auto;
+  font-size: 1px !important;
+  line-height: 1px !important;
+}
+
+.calendar-calendar .day-view .stripe {
+  width: 100%;
+}
+
+table.calendar-legend {
+  background-color: #ccc;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+table.calendar-legend tr.odd .stripe, table.calendar-legend tr.even .stripe {
+  height: 12px !important;
+  font-size: 9px !important;
+  line-height: 10px !important;
+}
+
+.calendar-legend td {
+  text-align: left;
+}
+
+.calendar-empty {
+  font-size: 1px;
+  line-height: 1px;
+}
+
+.calendar-calendar td.calendar-agenda-hour {
+  font-family: serif;
+  text-align: right;
+  border: none;
+  border-top: 1px #333 dotted;
+  padding-top: .25em;
+  width: 1%;
+}
+
+.calendar-calendar td.calendar-agenda-no-hours {
+  min-width: 1%;
+}
+
+.calendar-calendar td.calendar-agenda-hour .calendar-hour {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.calendar-calendar td.calendar-agenda-hour .calendar-ampm {
+  font-size: 1em;
+}
+
+.calendar-calendar td.calendar-agenda-items {
+  border: 1px #333 dotted;
+  text-align: left;
+}
+
+.calendar-calendar td.calendar-agenda-items div.calendar {
+  width: auto;
+  padding: .25em;
+  margin: 0;
+}
+
+.calendar-calendar div.calendar div.inner .calendar-agenda-empty {
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1em 0;
+  background-color: #fff;
+}
+
+.calendar-date-select form {
+  text-align: right;
+  float: right;
+  width: 25%;
+}
+
+.calendar-date-select div, .calendar-date-select input, .calendar-date-select label {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  float: right;
+  clear: both;
+}
+
+.calendar-date-select .description {
+  float: right;
+}
+
+.calendar-label {
+  font-weight: bold;
+  display: block;
+  clear: both;
+}
+
+.calendar-calendar div.date-nav {
+  background-color: #ccc;
+  color: #777;
+  padding: 0.2em;
+  width: auto;
+  border: 1px solid #ccc;
+}
+
+.calendar-calendar div.date-nav a, .calendar-calendar div.date-nav h3 {
+  color: #777;
+}
+
+.calendar-calendar th.days {
+  background-color: #eee;
+  color: #777;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
+
+.calendar-calendar td.empty {
+  background: #ccc;
+  border-color: #ccc;
+}
+
+.calendar-calendar table.mini td.empty {
+  background: #fff;
+  border-color: #fff;
+}
+
+.calendar-calendar td div.day {
+  border: 1px solid #ccc;
+  border-top: none;
+  border-right: none;
+  margin-bottom: 2px;
+}
+
+.calendar-calendar td .inner div, .calendar-calendar td .inner div a {
+  background: #eee;
+}
+
+.calendar-calendar div.calendar {
+  border: none;
+  font-size: x-small;
+}
+
+.calendar-calendar td .inner div.calendar div, .calendar-calendar td .inner div.calendar div a {
+  border: none;
+  background: #ffc;
+  padding: 0 2px;
+}
+
+.calendar-calendar td .inner div.calendar div.calendar-more, .calendar-calendar td .inner div.calendar div.calendar-more a {
+  color: #444;
+  background: #fff;
+  text-align: right;
+}
+
+.calendar-calendar td .inner .view-field, .calendar-calendar td .inner .view-field a {
+  color: #444;
+  font-weight: normal;
+}
+
+.calendar-calendar td span.date-display-single, .calendar-calendar td span.date-display-start, .calendar-calendar td span.date-display-end, .calendar-calendar td span.date-display-separator {
+  font-weight: bold;
+}
+
+.calendar-calendar td .inner div.day a {
+  color: #4b85ac;
+}
+
+.calendar-calendar tr td.today, .calendar-calendar tr.odd td.today, .calendar-calendar tr.even td.today {
+  background-color: #C3D6E4;
+}
+
+.calendar-calendar td .inner div.calendar div div.view-data-node-data-field-date-field-date-value {
+  border-bottom: 1px solid #ccc;
+}
+
+.calendar-calendar td.past {
+}
+
+.calendar-calendar td.future {
+}
+
+.calendar-calendar td.has-events {
+}
+
+.calendar-calendar td.has-no-events {
+}
+
+.farbtastic {
+  position: relative;
+}
+
+.farbtastic * {
+  position: absolute;
+  cursor: crosshair;
+}
+
+.farbtastic, .farbtastic .wheel {
+  width: 195px;
+  height: 195px;
+}
+
+.farbtastic .color, .farbtastic .overlay {
+  top: 47px;
+  left: 47px;
+  width: 101px;
+  height: 101px;
+}
+
+.farbtastic .wheel {
+  background: url(http://www.systematic-paris-region/misc/farbtastic/wheel.png) no-repeat;
+  width: 195px;
+  height: 195px;
+}
+
+.farbtastic .overlay {
+  background: url(http://www.systematic-paris-region/misc/farbtastic/mask.png) no-repeat;
+}
+
+.farbtastic .marker {
+  width: 17px;
+  height: 17px;
+  margin: -8px 0 0 -8px;
+  overflow: hidden;
+  background: url(http://www.systematic-paris-region/misc/farbtastic/marker.png) no-repeat;
+}
+
+div.fieldgroup {
+  margin: .5em 0 1em 0;
+}
+
+div.fieldgroup .content {
+  padding-left: 1em;
+}
+
+.views-exposed-form .views-exposed-widget {
+  float: left;
+  padding: .5em 1em 0 0;
+}
+
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 1.6em;
+}
+
+.views-exposed-form .form-item, .views-exposed-form .form-submit {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.views-exposed-form label {
+  font-weight: bold;
+}
+
+.views-exposed-widgets {
+  margin-bottom: .5em;
+}
+
+html.js a.views-throbbing, html.js span.views-throbbing {
+  background: url(http://www.systematic-paris-region/sites/all/modules/views/images/status-active.gif) no-repeat right center;
+  padding-right: 18px;
+}
+
+div.view div.views-admin-links {
+  font-size: xx-small;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.block div.view div.views-admin-links {
+  margin-top: 0;
+}
+
+div.view div.views-admin-links ul {
+  padding-left: 0;
+}
+
+div.view div.views-admin-links li a {
+  color: #ccc;
+}
+
+div.view div.views-admin-links li {
+  padding-bottom: 2px;
+  z-index: 201;
+}
+
+div.view div.views-admin-links-hover a, div.view div.views-admin-links:hover a {
+  color: #000;
+}
+
+div.view div.views-admin-links-hover, div.view div.views-admin-links:hover {
+  background: transparent;;
+}
+
+div.view div.views-admin-links a:before {
+  content: "[";
+}
+
+div.view div.views-admin-links a:after {
+  content: "]";
+}
+
+div.view div.views-hide {
+  display: none;
+}
+
+div.view div.views-hide-hover, div.view:hover div.views-hide {
+  display: block;
+  position: absolute;
+  z-index: 200;
+}
+
+div.view:hover div.views-hide {
+  margin-top: -1.5em;
+}
+
+.views-view-grid tbody {
+  border-top: none;
+}
+
+.indented {
+  margin-left: 25px;
+}
+
+.comment-unpublished {
+  background-color: #fff4f4;
+}
+
+.preview .comment {
+  background-color: #ffffea;
+}
+
+div#calpopup {
+  display: block;
+  border: thin solid gray;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -webkit-box-shadow: 10px 10px 5px #888;
+  background-color: white;
+  width: 25%;
+  position: absolute;
+  top: 20em;
+  left: 20em;
+  z-index: 800;
+}
+
+div#calpopup-body div.node {
+  margin: 0;
+  border: 0;
+}
+
+div#calpopup-body {
+  margin: 1em;
+  max-height: 20em;
+  overflow-y: auto;
+  position: relative;
+}
+
+#popup-close {
+  text-align: right;
+  padding: 1em 1em 0 1em;
+}
+
+div#nodelink {
+  margin: 1em;
+}
+
+img#popthrobber {
+  text-align: center;
+  margin: 3em;
+}
+
+body {
+  font-size: 100%;
+}
+
+#page {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset {
+  font-family: Arial, Helvetica, "Bitstream Vera Sans", sans-serif;
+}
+
+pre, code {
+  font-size: 1.1em;
+  font-family: "Bitstream Vera Sans Mono", "Courier New", monospace;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.3em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin-top: 0.667em;
+  margin-bottom: 0.667em;
+}
+
+h3 {
+  font-size: 1.3em;
+  line-height: 1.3em;
+  margin-top: 0.769em;
+  margin-bottom: 0.769em;
+}
+
+h4, h5, h6 {
+  font-size: 1.1em;
+  line-height: 1.3em;
+  margin-top: 0.909em;
+  margin-bottom: 0.909em;
+}
+
+p, ul, ol, dl, pre, table, fieldset, blockquote {
+  margin: 1em 0;
+  color: #303030;
+}
+
+blockquote, blockquote p {
+  font-style: italic;
+  padding-left: 15px;
+}
+
+ul, ol {
+  margin-left: 0;
+  padding-left: 2em;
+}
+
+.block ul, .item-list ul {
+  margin: 1em 0;
+  padding: 0 0 0 0;
+}
+
+ul ul, ul ol, ol ol, ol ul, .block ul ul, .block ul ol, .block ol ol, .block ol ul, .item-list ul ul, .item-list ul ol, .item-list ol ol, .item-list ol ul {
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4px;
+}
+
+.item-list ul li {
+  margin: 0;
+  padding: 0;
+  list-style: inherit;
+}
+
+ul.menu li, li.expanded, li.collapsed, li.leaf {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+ul ul ul {
+  list-style-type: square;
+}
+
+ul ul ul ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ol {
+  list-style-type: lower-alpha;
+}
+
+ol ol ol {
+  list-style-type: decimal;
+}
+
+dt {
+  margin: 0;
+  padding: 0;
+}
+
+dd {
+  margin: 0 0 0 2em;
+  padding: 0;
+}
+
+a:link {
+  color: #0a4d7e;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0a4d7e;
+  text-decoration: none;
+}
+
+.breadcrumb {
+  color: #303030;
+}
+
+.breadcrumb a:link, .breadcrumb a:visited {
+  color: #303030;
+  text-decoration: underline;
+}
+
+.breadcrumb a:hover, .breadcrumb a:focus {
+  color: #303030;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+a:active {
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, thead th, tbody th {
+  text-align: left;
+  padding-right: 0;
+  border-bottom: none;
+}
+
+tbody {
+  border-top: none;
+}
+
+abbr {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+  white-space: nowrap;
+}
+
+abbr.created {
+  border: none;
+  cursor: auto;
+  white-space: normal;
+}
+
+img {
+  border: 0;
+}
+
+hr {
+  height: 1px;
+  border: 1px solid #666;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  margin: 1em 0;
+  padding: 0.5em;
+}
+
+.views-field-tid {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.terms-inline .links a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+div.tabs {
+  margin: 0 0 5px 0;
+}
+
+ul.primary {
+  margin: 0;
+  padding: 0 0 0 10px;
+  border-width: 0;
+  list-style: none;
+  white-space: nowrap;
+  line-height: normal;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-bar.png) repeat-x left bottom;
+}
+
+ul.primary li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+ul.primary li a {
+  display: block;
+  height: 24px;
+  margin: 0;
+  padding: 0 0 0 5px;
+  border-width: 0;
+  font-weight: bold;
+  text-decoration: none;
+  color: #777;
+  background-color: transparent;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-left.png) no-repeat left -38px;
+}
+
+ul.primary li a .tab {
+  display: block;
+  height: 20px;
+  margin: 0;
+  padding: 4px 13px 0 6px;
+  border-width: 0;
+  line-height: 20px;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-right.png) no-repeat right -38px;
+}
+
+ul.primary li a:hover {
+  border-width: 0;
+  background-color: transparent;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-left.png) no-repeat left -76px;
+}
+
+ul.primary li a:hover .tab {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-right.png) no-repeat right -76px;
+}
+
+ul.primary li.active a, ul.primary li.active a:hover {
+  border-width: 0;
+  color: #000;
+  background-color: transparent;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-left.png) no-repeat left 0;
+}
+
+ul.primary li.active a .tab, ul.primary li.active a:hover .tab {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-right.png) no-repeat right 0;
+}
+
+ul.secondary {
+  margin: 0;
+  padding: 0 0 0 5px;
+  border-bottom: 1px solid #c0c0c0;
+  list-style: none;
+  white-space: nowrap;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-secondary-bg.png) repeat-x left bottom;
+}
+
+ul.secondary li {
+  float: left;
+  margin: 0 5px 0 0;
+  padding: 5px 0;
+  border-right: none;
+}
+
+ul.secondary a {
+  display: block;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #c0c0c0;
+  text-decoration: none;
+  color: #777;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-secondary.png) repeat-x left -56px;
+}
+
+ul.secondary a .tab {
+  display: block;
+  height: 18px;
+  margin: 0;
+  padding: 3px 8px;
+  line-height: 18px;
+}
+
+ul.secondary a:hover {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-secondary.png) repeat-x left bottom;
+}
+
+ul.secondary a.active, ul.secondary a.active:hover {
+  border: 1px solid #c0c0c0;
+  color: #000;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-secondary.png) repeat-x left top;
+}
+
+#navbar-subsite ul.menu {
+  margin: 0;
+  padding: 0 0 0 10px;
+  border-width: 0;
+  list-style: none;
+  white-space: nowrap;
+  line-height: normal;
+  background: none;
+}
+
+#navbar-subsite ul.menu li {
+  display: block;
+  float: left;
+  margin: 0;
+  margin-right: -15px;
+  padding: 0;
+  list-style: none;
+}
+
+#navbar-subsite ul.menu li a {
+  display: block;
+  height: 34px;
+  margin: 0;
+  padding: 0 8px 0 8px;
+  border-width: 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: none;
+  color: #929292;
+  background-color: transparent;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-left.png) no-repeat left -56px;
+}
+
+#navbar-subsite ul.menu li a .tab {
+  display: block;
+  height: 30px;
+  margin: 0;
+  padding: 8px 30px 0 25px;
+  border-width: 0;
+  line-height: 20px;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-right.png) no-repeat right -56px;
+}
+
+#navbar-subsite ul.menu li a:hover {
+  color: #0a4c80;
+  height: 34px;
+  border-width: 0;
+  background-color: transparent;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-left.png) no-repeat left -120px;
+}
+
+#navbar-subsite ul.menu li a:hover .tab {
+  height: 30px;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-right.png) no-repeat right -120px;
+}
+
+#navbar-subsite ul.menu li.active-trail a, #navbar-subsite ul.menu li.active-trail a:hover {
+  border-width: 0;
+  color: #0a4c80;
+  font-size: 14px;
+  background-color: transparent;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-left.png) no-repeat left 0;
+}
+
+#navbar-subsite ul.menu li.active-trail a .tab, #navbar-subsite ul.menu li.active-trail a:hover .tab {
+  padding: 6px 30px 0 25px;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-right.png) no-repeat right 0;
+}
+
+#navbar-subsite ul.menu ul.menu {
+  margin-left: 2px;
+  padding: 0;
+  padding-left: 8px;
+  padding-right: 20px;
+  background-color: transparent;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-left-submenu.png) no-repeat bottom left;
+}
+
+#navbar-subsite ul.menu ul.menu li.first {
+  margin-top: -5px;
+}
+
+#navbar-subsite ul.menu ul.menu li {
+  float: none;
+  display: block;
+  margin: 0;
+  margin-top: -1px;
+  padding: 0 0 0 0;
+  border-top: solid #e6e6e6 1px;
+  list-style: none;
+  list-style-image: none;
+  text-align: center;
+}
+
+#navbar-subsite ul.menu ul.menu li a, #navbar-subsite ul.menu li.active-trail ul.menu a {
+  display: block;
+  height: 20px;
+  margin: 0;
+  margin-right: -12px;
+  padding: 4px 8px 0 0;
+  border-width: 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: none;
+  color: #929292;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-right-submenu.png) repeat-y right;
+}
+
+#navbar-subsite ul.menu ul.menu li.last a, #navbar-subsite ul.menu ul.menu li.last a:hover, #navbar-subsite ul.menu li.active-trail ul.menu a .tab, #navbar-subsite ul.menu li.active-trail ul.menu a:hover .tab {
+  padding-bottom: 12px;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/tab-right-submenu-last.png) no-repeat bottom right;
+}
+
+#navbar-subsite ul.menu ul.menu li a:hover, #navbar-subsite ul.menu li.active-trail ul.menu li a:hover {
+  color: #0a4c80;
+}
+
+body.section-mots-cles ul.primary, body.section-taxonomy ul.primary {
+  background: none;
+  padding: 0;
+}
+
+body.section-mots-cles ul.primary li, body.section-taxonomy ul.primary li {
+  padding-left: 0;
+  margin-right: 10px;
+}
+
+body.section-mots-cles ul.primary li a, body.section-taxonomy ul.primary li a {
+  padding-left: 0;
+  font-size: 15px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-gris-tags.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+body.section-mots-cles ul.primary li a.tab, body.section-taxonomy ul.primary li a.tab {
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+body.section-mots-cles ul.primary li a:hover, body.section-taxonomy ul.primary li a:hover {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-bleuclair-tags.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  color: #000000;
+}
+
+body.section-mots-cles ul.primary li a:hover .tab, body.section-taxonomy ul.primary li a:hover .tab {
+  background: none;
+}
+
+body.section-mots-cles ul.primary li.active a, body.section-mots-cles ul.primary li.active a:hover, body.section-taxonomy ul.primary li.active a, body.section-taxonomy ul.primary li.active a:hover {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-bleuclair-tags.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+body.section-mots-cles ul.primary li.active a .tab, body.section-mots-cles ul.primary li.active a:hover .tab, body.section-taxonomy ul.primary li.active a .tab, body.section-taxonomy ul.primary li.active a:hover .tab {
+  background: none;
+}
+
+body.section-mots-cles ul.secondary, body.section-taxonomy ul.secondary {
+  border-bottom: none;
+  background: none;
+}
+
+body.section-mots-cles ul.secondary a, body.section-taxonomy ul.secondary a {
+  border: none;
+  background: none;
+}
+
+body.section-mots-cles ul.secondary a:hover, body.section-taxonomy ul.secondary a:hover {
+  background: none;
+}
+
+body.section-mots-cles ul.secondary a.active, body.section-mots-cles ul.secondary a.active:hover, body.section-taxonomy ul.secondary a.active, body.section-taxonomy ul.secondary a.active:hover {
+  border: none;
+  background: none;
+}
+
+body.section-user ul.primary, body.section-users ul.primary, body.section-user ul.secondary, body.section-users ul.secondary {
+  margin-top: 20px;
+  background: none;
+  padding: 0;
+}
+
+body.section-user ul.primary li, body.section-users ul.primary li, body.section-user ul.secondary li, body.section-users ul.secondary li {
+  padding-left: 0;
+  margin-right: 10px;
+}
+
+body.section-user ul.primary li a, body.section-users ul.primary li a, body.section-user ul.secondary li a, body.section-users ul.secondary li a {
+  padding-left: 0;
+  font-size: 14px;
+  font-weight: bold;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-gris-tags.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+body.section-user ul.primary li a .tab, body.section-users ul.primary li a .tab, body.section-user ul.secondary li a .tab, body.section-users ul.secondary li a .tab {
+  background: none;
+  padding-left: 10px;
+}
+
+body.section-user ul.primary li a:hover, body.section-users ul.primary li a:hover, body.section-user ul.secondary li a:hover, body.section-users ul.secondary li a:hover {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-bleuclair-tags.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  color: #000000;
+}
+
+body.section-user ul.primary li a:hover .tab, body.section-users ul.primary li a:hover .tab, body.section-user ul.secondary li a:hover .tab, body.section-users ul.secondary li a:hover .tab {
+  background: none;
+}
+
+body.section-user ul.primary li.active a, body.section-user ul.primary li.active a:hover, body.section-users ul.primary li.active a, body.section-users ul.primary li.active a:hover, body.section-user ul.secondary li.active a, body.section-user ul.secondary li.active a:hover, body.section-users ul.secondary li.active a, body.section-users ul.secondary li.active a:hover {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-bleuclair-tags.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+body.section-user ul.primary li.active a .tab, body.section-user ul.primary li.active a:hover .tab, body.section-users ul.primary li.active a .tab, body.section-users ul.primary li.active a:hover .tab, body.section-user ul.secondary li.active a .tab, body.section-user ul.secondary li.active a:hover .tab, body.section-users ul.secondary li.active a .tab, body.section-users ul.secondary li.active a:hover .tab {
+  background: none;
+}
+
+body.section-user ul.secondary, body.section-users ul.secondary {
+  border-bottom: none;
+  background: none;
+}
+
+body.section-user ul.secondary a, body.section-users ul.secondary a {
+  border: none;
+  background: none;
+}
+
+body.section-user ul.secondary a:hover, body.section-users ul.secondary a:hover {
+  background: none;
+}
+
+body.section-user ul.secondary a.active, body.section-user ul.secondary a.active:hover, body.section-users ul.secondary a.active, body.section-users ul.secondary a.active:hover {
+  border: none;
+  background: none;
+}
+
+div.messages, div.status, div.warning, div.error {
+  min-height: 21px;
+  margin: 0 1em 5px 1em;
+  border: 2px solid #ff7;
+  padding: 5px 5px 5px 35px;
+  color: #000;
+  background-color: #ffc;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/zen/zen/images/messages-status.png);
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+}
+
+div.status {
+}
+
+div.warning {
+  border-color: #fc0;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/zen/zen/images/messages-warning.png);
+}
+
+div.warning, tr.warning {
+  color: #000;
+  background-color: #ffc;
+}
+
+div.error {
+  border-color: #c00;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/zen/zen/images/messages-error.png);
+}
+
+div.error, tr.error {
+  color: #900;
+  background-color: #fee;
+}
+
+div.messages ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.block.with-block-editing {
+  position: relative;
+}
+
+div.block.with-block-editing div.edit {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 40;
+  border: 1px solid #eee;
+  padding: 0 2px;
+  font-size: 0.75em;
+  background-color: #fff;
+}
+
+div.block.with-block-editing:hover div.edit {
+  display: block;
+}
+
+.with-wireframes #header-inner, .with-wireframes #content-inner, .with-wireframes #content-inner>*, .with-wireframes #navbar-inner, .with-wireframes #sidebar-left-inner, .with-wireframes #sidebar-right-inner, .with-wireframes #footer-inner {
+  margin: 1px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+.with-wireframes #closure-blocks {
+  margin-top: 1px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#page, #closure-blocks {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+#page-inner {
+}
+
+#navigation-top, #navigation {
+  position: absolute;
+  left: -10000px;
+  display: none;
+}
+
+#skip-to-nav {
+  float: right;
+  margin: 0 !important;
+  font-size: 0.8em;
+}
+
+#skip-to-nav a:link, #skip-to-nav a:visited {
+  color: #fff;
+}
+
+#skip-to-nav a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+#header {
+  height: 88px;
+  position: relative;
+}
+
+#header a {
+  color: #5a5a5a;
+  font-size: 10px;
+}
+
+#header-inner {
+}
+
+#header-blocks {
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+  width: 649px;
+  padding-right: 6px;
+}
+
+#header-blocks .block {
+  margin: 0;
+}
+
+#header-blocks * {
+  margin: 0;
+  padding: 0;
+}
+
+#header-blocks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#logo-title {
+}
+
+#logo {
+}
+
+#site-name {
+}
+
+#site-slogan {
+}
+
+#header-blocks {
+}
+
+#main {
+  position: relative;
+}
+
+#main-inner {
+}
+
+#content, .no-sidebars #content {
+  float: left;
+  width: 960px;
+  margin-left: 0;
+  margin-right: -960px;
+  padding: 0;
+}
+
+.sidebar-left #content {
+  width: 760px;
+  margin-left: 200px;
+  margin-right: -960px;
+}
+
+body.front #content {
+  width: 685px;
+  margin-left: 0;
+  margin-right: -685px;
+}
+
+.sidebar-right #content {
+  width: 700px;
+  margin-left: 0;
+  margin-right: -740px;
+  padding-top: 10px;
+}
+
+body.subsites #content {
+  width: 720px;
+  margin-left: 0;
+  margin-right: -740px;
+  padding-top: 94px;
+}
+
+body.subsites #content #content-area {
+  padding-top: 10px;
+}
+
+body.subsites-front #content #content-area {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/border-home-subsites.jpg);
+  background-repeat: repeat-y;
+  background-position: right;
+}
+
+.sidebar-right #content #content-inner {
+  padding-left: 40px;
+}
+
+.front #content #content-inner {
+  padding-left: 0;
+}
+
+.two-sidebars #content {
+  width: 700px;
+  margin-left: 0;
+  margin-right: -740px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+#content-inner {
+  margin: 0;
+  padding: 0;
+}
+
+body.page-search404 #content {
+  width: 900px;
+  padding-top: 10px;
+  padding-left: 38px;
+}
+
+body.page-search404 #content .breadcrumb {
+  margin-bottom: 10px;
+}
+
+body.section-search #content #search-form .form-item label, body.page-search404 #content #search-form .form-item label {
+  text-align: left;
+  width: 200px;
+  float: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body.section-search #edit-submit, body.page-search404 #edit-submit {
+  margin-left: 10px;
+}
+
+body.section-search .search-advanced, body.page-search404 .search-advanced {
+  border: none;
+  padding-left: 0;
+}
+
+body.section-search .search-advanced .collapse-processed, body.page-search404 .search-advanced .collapse-processed {
+  padding-left: 0;
+}
+
+body.section-search .search-advanced .collapse-processed a, body.page-search404 .search-advanced .collapse-processed a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1877c5;
+  display: block;
+  width: 194px;
+  height: 40px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-top-recherche.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 10px;
+  padding-left: 25px;
+  outline: none;
+}
+
+body.section-search .search-advanced .fieldset-wrapper, body.page-search404 .search-advanced .fieldset-wrapper {
+  margin-top: -28px;
+  display: none;
+  width: 700px;
+  height: 370px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-recherche.jpg);
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+
+body.section-search #content #search-form .search-advanced .fieldset-wrapper label, body.page-search404 #content #search-form .search-advanced .fieldset-wrapper label {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+body.section-search #content #search-form .search-advanced .criterion, body.page-search404 #content #search-form .search-advanced .criterion {
+  margin-right: 20px;
+}
+
+body.section-search #content #search-form .search-advanced #edit-submit-1, body.page-search404 #content #search-form .search-advanced #edit-submit-1 {
+  position: relative;
+  top: -80px;
+  left: 280px;
+}
+
+.search-snippet {
+  margin-bottom: 5px;
+}
+
+.search-info {
+  margin-left: -26px;
+}
+
+body.section-search #content #search-form .form-item .form-checkboxes .form-item, body.page-search404 #content #search-form .form-item .form-checkboxes .form-item {
+  float: left;
+}
+
+body.section-user #user-login, body.section-user #user-register {
+  margin-top: 30px;
+  width: 700px;
+  height: 190px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-user.jpg);
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+body.section-user #user-pass {
+  margin-top: 30px;
+  width: 700px;
+  height: 140px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-pass.jpg);
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+body.section-user #user-pass .form-item label {
+  text-align: left;
+  width: 220px;
+}
+
+body.section-user #user-pass #edit-name-wrapper {
+  margin-bottom: 30px;
+}
+
+body.section-user #edit-name-wrapper {
+  margin-top: 0;
+}
+
+body.section-user .form-item label {
+  text-align: left;
+  width: 115px;
+}
+
+body.section-user .form-item .description {
+  padding-left: 120px;
+  padding-right: 60px;
+}
+
+body.section-user #edit-submit {
+  text-align: center;
+  margin-left: 0;
+}
+
+#navbar {
+  float: left;
+  width: 100%;
+  margin-left: 0;
+  margin-right: -100%;
+  padding: 0;
+  height: 3.75em;
+}
+
+.with-navbar #content, .with-navbar #sidebar-left, .with-navbar #sidebar-right {
+  margin-top: 5.92em;
+}
+
+.front .with-navbar #content, .front .with-navbar #sidebar-left, .front .with-navbar #sidebar-right {
+  margin-top: 25.25em;
+}
+
+#navbar-inner {
+}
+
+#search-box {
+  width: 200px;
+  margin-right: -200px;
+  float: left;
+}
+
+#primary {
+  margin-left: 200px;
+}
+
+#secondary {
+  margin-left: 200px;
+}
+
+#navbar ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+#navbar li {
+  float: left;
+  padding: 0 70px 0 0;
+  list-style: none;
+  line-height: 1em;
+}
+
+#navbar li.last {
+  padding: 0;
+}
+
+#navbar li.first {
+  padding-left: 35px;
+}
+
+#navbar li a {
+  display: block;
+  text-indent: -9999px;
+  outline: none;
+}
+
+#navbar .block {
+  margin: 0;
+}
+
+#navbar .menu .menu {
+  top: 20px;
+}
+
+#navbar .menu .menu li {
+  list-style: square;
+  color: #FF0000;
+}
+
+#navbar .menu .menu li.first {
+  list-style: none;
+}
+
+#navbar .menu .menu li a {
+  display: inline;
+  text-indent: 0;
+}
+
+#navbar .with-submenu {
+  height: 20px;
+}
+
+#navbar #navbar-inner .with-submenu:hover, #navbar #navbar-inner .expanded .with-submenu {
+  background-position: left bottom;
+  height: 37px;
+}
+
+#navbar #dhtml_menu-618-1 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/menu_btn_pole.jpg) no-repeat right top;
+  width: 99px;
+}
+
+#navbar #dhtml_menu-618-2 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/menu_btn_pole.jpg) no-repeat right top;
+  width: 99px;
+}
+
+#navbar #dhtml_menu-962-1 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/menu_btn_ambition_pme.jpg) no-repeat right top;
+  width: 140px;
+}
+
+#navbar #dhtml_menu-962-2 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/menu_btn_ambition_pme.jpg) no-repeat right top;
+  width: 140px;
+}
+
+#navbar #dhtml_menu-624-1 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/menu_btn_projets.jpg) no-repeat right top;
+  width: 146px;
+}
+
+#navbar #dhtml_menu-624-2 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/menu_btn_projets.jpg) no-repeat right top;
+  width: 146px;
+}
+
+#navbar #dhtml_menu-644-1 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/menu_btn_news.jpg) no-repeat right top;
+  width: 65px;
+}
+
+#navbar #dhtml_menu-644-2 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/menu_btn_news.jpg) no-repeat right top;
+  width: 65px;
+}
+
+#navbar #dhtml_menu-678-1 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/menu_btn_systematic_tv.jpg) no-repeat left top;
+  width: 160px;
+}
+
+#navbar #dhtml_menu-678-2 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/menu_btn_systematic_tv.jpg) no-repeat left top;
+  width: 160px;
+}
+
+#navbar #dhtml_menu-1844-1 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/en/menu_btn_cluster.jpg) no-repeat right top;
+  width: 139px;
+}
+
+#navbar #dhtml_menu-1844-2 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/en/menu_btn_cluster.jpg) no-repeat right top;
+  width: 139px;
+}
+
+#navbar #dhtml_menu-1845-1 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/en/menu_btn_sme.jpg) no-repeat right top;
+  width: 100px;
+}
+
+#navbar #dhtml_menu-1845-2 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/en/menu_btn_sme.jpg) no-repeat right top;
+  width: 140px;
+}
+
+#navbar #dhtml_menu-1846-1 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/en/menu_btn_project.jpg) no-repeat right top;
+  width: 146px;
+}
+
+#navbar #dhtml_menu-1846-2 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/en/menu_btn_project.jpg) no-repeat right top;
+  width: 146px;
+}
+
+#navbar #dhtml_menu-1847-1 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/en/menu_btn_news.jpg) no-repeat right top;
+  width: 65px;
+}
+
+#navbar #dhtml_menu-1847-2 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/en/menu_btn_news.jpg) no-repeat right top;
+  width: 65px;
+}
+
+#navbar #dhtml_menu-1848-1 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/en/menu_btn_systematic_tv.jpg) no-repeat left top;
+  width: 160px;
+}
+
+#navbar #dhtml_menu-1848-2 {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/en/menu_btn_systematic_tv.jpg) no-repeat left top;
+  width: 160px;
+}
+
+#navbar-subsite .block-menu {
+  padding-top: 1px;
+  padding-left: 30px;
+}
+
+#bandeau {
+  float: left;
+  width: 100%;
+  margin-left: 0;
+  margin-right: -100%;
+  padding: 0;
+  height: 22.50em;
+}
+
+.with-navbar #bandeau {
+  margin-top: 3.75em;
+}
+
+#navbar-subsite {
+  float: left;
+  width: 100%;
+  margin-left: 0;
+  margin-right: -100%;
+  padding: 0;
+  height: 8.50em;
+}
+
+.with-navbar #navbar-subsite {
+  margin-top: 3.75em;
+}
+
+#sidebar-left {
+  float: left;
+  width: 200px;
+  margin-left: 0;
+  margin-right: -200px;
+  padding: 0;
+}
+
+#sidebar-left-inner {
+  margin: 0 20px 0 0;
+  padding: 0;
+}
+
+#sidebar-left-inner ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+#sidebar-right {
+  float: left;
+  width: 275px;
+  margin-left: 735px;
+  margin-right: -960px;
+  padding: 0;
+}
+
+body.front #sidebar-right {
+  width: 300px;
+  margin-left: 685px;
+}
+
+body.subsites #sidebar-right {
+  margin-top: 160px;
+  width: 250px;
+  margin-left: 735px;
+}
+
+body.front #sidebar-right-inner {
+  margin: 0;
+  margin-top: 10px;
+}
+
+#sidebar-right-inner {
+  margin: 0;
+  margin-top: 100px;
+  padding: 0;
+}
+
+body.subsites #sidebar-right #sidebar-right-inner {
+  margin-top: 30px;
+}
+
+#footer {
+  margin: 0;
+}
+
+#footer-inner {
+}
+
+#footer2 {
+  margin: 0;
+}
+
+#print-logo {
+  display: none;
+}
+
+#closure-blocks {
+}
+
+#header, #content, #navbar, #sidebar-left, #sidebar-right, #footer, #closure-blocks {
+  overflow: visible;
+  word-wrap: break-word;
+}
+
+#navbar {
+  overflow: hidden;
+}
+
+body {
+  background-color: #f6f6f6;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/background-top.jpg);
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+body.subsites {
+  background-color: #f6f6f6;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/background-subsites-top.jpg);
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+body.front {
+  background-color: #f6f6f6;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/background-home-top.jpg);
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+#header-blocks #block-systematic-12 {
+  float: left;
+  text-align: right;
+  width: 590px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+  z-index: 1;
+}
+
+#header-blocks #block-systematic-12 .content li {
+  list-style: none;
+}
+
+#header-blocks #block-systematic-12 li.active {
+  display: none;
+}
+
+#header-blocks #block-search-0 {
+  text-align: right;
+  width: 625px;
+}
+
+#header-blocks #search-block-form #edit-search-block-form-1 {
+  position: relative;
+  left: 24px;
+  width: 350px;
+  height: 20px;
+}
+
+#header-blocks #search-block-form #edit-submit-1, #header-blocks #search-block-form #edit-submit, #header-blocks #search-block-form #edit-submit-2, #header-blocks #search-block-form #edit-submit, #header-blocks #search-block-form #edit-submit-3 {
+  position: relative;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+}
+
+#header-blocks #search-block-form #advanced-search-link {
+  bottom: 0;
+  right: 0;
+}
+
+#header-blocks #edit-submit {
+  margin-left: 0;
+}
+
+#header-blocks #block-systematic-2 {
+  padding-top: 5px;
+  width: 28px;
+  height: 28px;
+  float: left;
+  z-index: 2;
+}
+
+#logo-title {
+  position: absolute;
+  float: left;
+  width: 351px;
+  height: 88px;
+}
+
+#logo {
+}
+
+#logo-image {
+}
+
+#navbar {
+}
+
+#navbar .menu .menu li {
+  color: #ffffff;
+}
+
+#navbar-inner {
+}
+
+#search-box {
+}
+
+#edit-search-theme-form-1-wrapper label {
+  display: none;
+}
+
+#primary {
+}
+
+#secondary {
+}
+
+#block-menu-menu-systematic .block-inner .content .menu {
+  font-size: 12px;
+  position: absolute;
+  width: 1000px;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu ul {
+  color: #ffffff;
+  width: auto;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu .dhtml-menu li {
+  padding-right: 22px;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-618-1-sub-menu, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1844-1-sub-menu {
+  left: 0;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-678-1-sub-menu, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1848-1-sub-menu {
+  right: 0;
+  padding-right: 50px;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-644-1-sub-menu {
+  right: 0;
+  padding-right: 282px;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1847-1-sub-menu {
+  right: 0;
+  padding-right: 245px;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu .leaf, #block-menu-menu-systematic .block-inner .content .menu .menu .dhtml-menu {
+  margin-top: 10px;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-618-1-sub-menu a:hover, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-618-1-sub-menu a.active, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-618-1-sub-menu .active-trail a, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1844-1-sub-menu a:hover, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1844-1-sub-menu a.active, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1844-1-sub-menu .active-trail a {
+  color: #fbd213;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-962-1-sub-menu a:hover, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-962-1-sub-menu a.active, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-962-1-sub-menu .active-trail a, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1845-1-sub-menu a:hover, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1845-1-sub-menu a.active, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1845-1-sub-menu .active-trail a {
+  color: #53a5e5;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-624-1-sub-menu a:hover, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-624-1-sub-menu a.active, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-624-1-sub-menu .active-trail a, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1846-1-sub-menu a:hover, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1846-1-sub-menu a.active, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1846-1-sub-menu .active-trail a {
+  color: #92bd1a;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-644-1-sub-menu a:hover, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-644-1-sub-menu a.active, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-644-1-sub-menu .active-trail a, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1847-1-sub-menu a:hover, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1847-1-sub-menu a.active, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1847-1-sub-menu .active-trail a {
+  color: #e65476;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-678-1-sub-menu a:hover, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-678-1-sub-menu a.active, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-678-1-sub-menu .active-trail a, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1848-1-sub-menu a:hover, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1848-1-sub-menu a.active, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1848-1-sub-menu .active-trail a {
+  color: #e68303;
+}
+
+#block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-962-1-sub-menu li.first, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-624-1-sub-menu li.first, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1846-1-sub-menu li.first, #block-menu-menu-systematic .block-inner .content .menu #dhtml_menu-1845-1-sub-menu li.first {
+  padding-left: 0;
+}
+
+h1#site-name, div#site-name {
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.3em;
+}
+
+#site-name a:link, #site-name a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#site-name a:hover {
+  text-decoration: underline;
+}
+
+#site-slogan {
+}
+
+#header-blocks {
+}
+
+#bandeau-inner .block {
+  float: left;
+  margin-top: 8px;
+}
+
+#block-views-bandeaux-block_1 {
+  width: 762px;
+}
+
+#block-views-bandeaux-block_1 .view-display-id-block_1 {
+  position: relative;
+}
+
+#block-views-bandeaux-block_1 .views_slideshow_singleframe_pager div {
+  display: block;
+  padding: 2px 0;
+  margin: 0;
+}
+
+#block-views-bandeaux-block_1 .views_slideshow_singleframe_pager div a {
+  width: 113px;
+  height: 75px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+#block-views-bandeaux-block_1 .views_slideshow_singleframe_pager div a img {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: -75px;
+  left: 0;
+}
+
+#block-views-bandeaux-block_1 .views_slideshow_singleframe_pager div.activeSlide a img {
+  top: 0;
+}
+
+#block-views-bandeaux-block_1 .views-field-field-bandeau-thumbnail-fid {
+  display: none;
+}
+
+#block-views-bandeaux-block_1 .views_slideshow_singleframe_pager div.activeSlide a {
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/background-arrow-slideshow.png) no-repeat right 29px;
+}
+
+#block-views-bandeaux-block_1 .views-slideshow-controls-bottom {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  z-index: 10;
+}
+
+#block-systematic-1 {
+  margin-left: 20px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bloc_menu_header_home.jpg);
+  background-repeat: no-repeat;
+  width: 192px;
+  height: 245px;
+  text-align: center;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+#block-systematic-1 ul {
+  position: relative;
+  top: 5px;
+  list-style: none;
+}
+
+#block-systematic-1 li {
+  margin-bottom: 28px;
+  margin-right: 0;
+  width: 192px;
+}
+
+body.i18n-en #block-systematic-1 li {
+  margin-bottom: 18px;
+  margin-right: 0;
+  width: 192px;
+}
+
+body.i18n-en #block-systematic-1 li#link-logiciel-libre {
+  margin-bottom: 8px;
+}
+
+body.i18n-en #block-systematic-1 li#link-securite-et-defense {
+  margin-bottom: 24px;
+}
+
+#block-systematic-1 a {
+  color: #4d4d4d;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#block-systematic-1 a:hover {
+  color: #0f5994;
+}
+
+#views_slideshow_singleframe_teaser_section_2 .views_slideshow_singleframe_slide .field-content {
+  display: block;
+}
+
+body.front #main-inner {
+  background-image: none;
+}
+
+#main-inner {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-bandeau-interieur.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+body.subsites #main-inner {
+  background-image: none;
+}
+
+body.front #content {
+  margin-left: 0;
+}
+
+body.front #content-area {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/border-home.jpg);
+  background-repeat: repeat-y;
+  background-position: right;
+}
+
+#block-views-actualites-block_1 {
+  padding-top: 10px;
+}
+
+#content-inner .view-actualites {
+  color: #303030;
+  padding-right: 30px;
+}
+
+#content-inner .view-actualites .views-row {
+  clear: both;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#content-inner .view-evenements .views-row {
+  clear: both;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+body.front #content-inner .view-actualites .views-row .content-list {
+  margin-bottom: 0;
+}
+
+#content-inner .view-actualites .views-row .content-list {
+  margin-bottom: 30px;
+}
+
+#content-inner .view-actualites img {
+  float: left;
+  margin-right: 6px;
+  border: solid 1px #7b7b7b;
+}
+
+#content-inner .view-actualites .views-field-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#content-inner .view-actualites .views-field-title a {
+  color: #000000;
+}
+
+#content-inner .view-actualites .views-field-created {
+  color: #b31359;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#content-inner .view-actualites .views-field-tid {
+  font-weight: bold;
+}
+
+#content-inner .view-actualites .views-field-tid ul, #content-inner .view-actualites .views-field-tid ol {
+  padding-left: 0;
+  margin-top: 6px;
+}
+
+#content-inner .view-actualites .views-field-tid li {
+  display: inline;
+  padding-left: 0;
+  padding-right: 8px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-tag.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+#content-inner .view-actualites .views-field-tid li.last {
+  display: inline;
+  padding-left: 0;
+  padding-right: 8px;
+  background-image: none;
+}
+
+#content-inner .view-actualites .views-field-tid a {
+  font-size: 9px;
+  color: #505050;
+}
+
+#content-inner .view-actualites .more-link a {
+  color: #b31359;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#content-inner .view-actualites .more-link a:hover {
+  text-decoration: none;
+}
+
+#block-views-evenements-block_2 {
+  padding-top: 10px;
+}
+
+#block-views-evenements-block_2 .title {
+  padding-left: 20px;
+}
+
+#content-inner .view-evenements {
+  padding-left: 20px;
+  color: #303030;
+}
+
+#content-inner .view-evenements img {
+  margin-right: 6px;
+  border: solid 1px #7b7b7b;
+}
+
+body.section-news #content-inner .view-evenements .content-list {
+  padding-left: 85px;
+  margin-bottom: 30px;
+}
+
+#content-inner .view-evenements .views-field-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#content-inner .view-evenements .views-field-title a {
+  color: #000000;
+}
+
+#content-inner .view-evenements .views-field-field-evenement-date-value {
+  color: #5892d5;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#content-inner .view-evenements .views-field-tid ul, #content-inner .view-evenements .views-field-tid ol {
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+#content-inner .view-evenements .views-field-tid li {
+  display: inline;
+  padding-left: 0;
+  padding-right: 8px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-tag.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+#content-inner .view-evenements .views-field-tid li.last {
+  display: inline;
+  padding-left: 0;
+  padding-right: 8px;
+  background-image: none;
+}
+
+#content-inner .view-evenements .views-field-tid a {
+  font-size: 9px;
+  color: #505050;
+}
+
+#content-inner .view-evenements .more-link a {
+  color: #5892d5;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#content-inner .view-evenements .more-link a:hover {
+  text-decoration: none;
+}
+
+body.subsites #main-inner #content-inner .view-filters, body.subsites #main-inner #content-inner .view-header {
+  display: none;
+}
+
+body.section-news h1.title {
+  margin-top: 0;
+}
+
+body.section-news #content-inner .view-actualites {
+  padding-right: 15px;
+  border: none;
+}
+
+body.section-news #content-inner .view-actualites .content-list {
+  padding-left: 85px;
+}
+
+body.section-news #content-inner .view-id-actualites_archive {
+  padding-right: 15px;
+  border: none;
+}
+
+body.section-news #content-inner .view-id-actualites_archive .content-list {
+  padding-left: 85px;
+}
+
+body.section-news #content-inner .view-id-actualites_archive {
+  color: #303030;
+}
+
+body.section-news #content-inner .view-id-actualites_archive .views-row {
+  margin-bottom: 10px;
+}
+
+body.section-news #content-inner .view-id-actualites_archive img {
+  float: left;
+  margin-right: 6px;
+  border: solid 1px #7b7b7b;
+}
+
+body.section-news #content-inner .view-id-actualites_archive .views-field-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+body.section-news #content-inner .view-id-actualites_archive .views-field-title a {
+  color: #000000;
+}
+
+body.section-news #content-inner .view-id-actualites_archive .views-field-created {
+  color: #b31359;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+body.section-news #content-inner .view-id-actualites_archive .views-field-tid {
+  clear: both;
+  font-weight: bold;
+}
+
+body.section-news #content-inner .view-id-actualites_archive .views-field-tid ul, body.section-news #content-inner .view-id-actualites_archive .views-field-tid ol {
+  padding-left: 0;
+}
+
+body.section-news #content-inner .view-id-actualites_archive .views-field-tid li {
+  display: inline;
+  padding-left: 0;
+  padding-right: 8px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-tag.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+body.section-news #content-inner .view-id-actualites_archive .views-field-tid li.last {
+  background-image: none;
+}
+
+body.section-news #content-inner .view-id-actualites_archive .views-field-tid a {
+  font-size: 9px;
+  color: #505050;
+}
+
+body.section-news #content-inner .view-id-actualites_archive .more-link a {
+  color: #b31359;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+body.section-news #content-inner .view-id-actualites_archive .more-link a:hover {
+  text-decoration: none;
+}
+
+#content-inner .view-communiques .views-field-title, #content-inner .view-communiques-archive .views-field-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#content-inner .view-communiques .views-field-title a, #content-inner .view-communiques-archive .views-field-title a {
+  color: #000000;
+}
+
+#content-inner .view-communiques .views-field-created, #content-inner .view-communiques-archive .views-field-created {
+  color: #ceb300;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#content-inner .view-communiques .views-field-tid {
+  clear: both;
+  font-weight: bold;
+}
+
+#content-inner .view-communiques .views-field-tid ul, #content-inner .view-communiques .views-field-tid ol {
+  padding-left: 0;
+}
+
+#content-inner .view-communiques .views-field-tid li {
+  display: inline;
+  padding-left: 0;
+  padding-right: 8px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-tag.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+#content-inner .view-communiques .views-field-tid li.last {
+  display: inline;
+  padding-left: 0;
+  padding-right: 8px;
+  background-image: none;
+}
+
+#content-inner .view-communiques .views-field-tid a {
+  font-size: 9px;
+  color: #505050;
+}
+
+#content-header .title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.terms-inline .links li {
+  padding-left: 0;
+}
+
+.field-field-evenement-image {
+  float: right;
+  margin-left: 20px;
+}
+
+.views-field-field-evenement-image-fid {
+  float: left;
+}
+
+.field-field-actualite-image {
+  float: right;
+  margin-left: 20px;
+}
+
+#en-savoir-plus {
+  margin-top: 40px;
+}
+
+#en-savoir-plus-container a:hover {
+  color: #000000;
+}
+
+#en-savoir-plus-container ul {
+  margin-bottom: 0;
+}
+
+#content-inner .view-display-id-calendar_1 {
+  padding-left: 0;
+}
+
+.view-display-id-calendar_1 .view-filters {
+  width: 660px;
+  height: 100px;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-agenda.jpg) no-repeat;
+}
+
+.view-display-id-calendar_1 .view-filters .views-exposed-form {
+  padding: 20px;
+}
+
+.view-display-id-calendar_1 .view-filters #filter-tid {
+  width: 575px;
+}
+
+.view-display-id-calendar_1 .view-filters .views-exposed-widget {
+  float: left;
+  padding: 0;
+}
+
+.view-display-id-calendar_1 .view-filters #edit-submit {
+  display: block;
+  margin: 25px 0 0 10px;
+}
+
+.view-display-id-calendar_1 .view-filters .form-item label {
+  width: auto;
+  float: none;
+  margin: 0 3px 0 0;
+}
+
+.view-display-id-calendar_1 .view-filters .form-item {
+  display: inline;
+}
+
+.view-display-id-calendar_1 .view-filters .bef-checkboxes {
+  width: 575px;
+}
+
+.view-display-id-calendar_1 .view-filters .form-checkboxes {
+  margin: 10px 0 0 0;
+}
+
+body.section-news .view-evenements .view-filters .views-exposed-widget .form-checkboxes .form-item .option {
+  color: #ffffff;
+}
+
+body.section-news .view-evenements .view-filters .views-exposed-widget label {
+  text-align: left;
+  color: #000000;
+  font-size: 12px;
+}
+
+body.section-news .view-evenements .view-filters .views-exposed-widget #edit-submit-evenements {
+  text-align: right;
+}
+
+.calendar-calendar ul.links {
+  margin-bottom: 3px;
+}
+
+.calendar-calendar .links a, .calendar-calendar .links a:hover {
+  color: #5892d5;
+  font-weight: bold;
+}
+
+.calendar-calendar div.date-nav {
+  background-color: transparent;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/header-agenda.jpg);
+  border: none;
+  color: #777777;
+  padding: 0.2em;
+  width: auto;
+}
+
+#calpopup div#calpopup-body {
+  margin: 0 0 8px 10px;
+}
+
+#calpopup-body .title {
+  display: none;
+}
+
+#calpopup-body .meta {
+  display: none;
+}
+
+#calpopup-body #nodelink a {
+  color: #303030;
+}
+
+#calpopup-body .field-field-evenement-date {
+  color: #5892d5;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#calpopup-body p {
+  color: #000000;
+  font-weight: bold;
+  margin: 0;
+}
+
+#calpopup-body a {
+  font-size: 12px;
+}
+
+.calendar-calendar td.has-events, .calendar-calendar td.has-events div.calendar, .calendar-calendar td .inner div.calendar div, .calendar-calendar td .inner div.calendar div a, .calendar-calendar td .inner div, .calendar-calendar td .inner div a {
+  background: #c3dfff none repeat scroll 0 0;
+}
+
+.calendar-calendar td.today, .calendar-calendar td.today div.calendar {
+  background: #7faadd none repeat scroll 0 0;
+}
+
+.calendar-calendar td.has-no-events div.calendar-empty {
+  background: #ffffff none repeat scroll 0 0;
+}
+
+.calendar-calendar td.empty div.calendar-empty {
+  background: #cccccc none repeat scroll 0 0;
+}
+
+.calendar-calendar td.today div.calendar-empty {
+  background: #7faadd none repeat scroll 0 0;
+}
+
+.calendar-calendar td .inner div.day, .calendar-calendar td .inner div.day a, .calendar-calendar td .inner div.month, .calendar-calendar td .inner div.month a {
+  background: #eeeeee none repeat scroll 0 0;
+}
+
+.calendar-calendar td .inner div.calendar div a {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-gris-agenda.gif);
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  line-height: 11px;
+}
+
+.calendar-calendar tr td.today, .calendar-calendar tr.odd td.today, .calendar-calendar tr.even td.today, .calendar-calendar td.today .inner div.calendar div, .calendar-calendar td.today .inner div.calendar div a {
+  background-color: #7faadd;
+  color: #ffffff;
+}
+
+.calendar-calendar td.calendar-agenda-items {
+  border: 1px solid #cccccc;
+}
+
+.calendar-calendar td.calendar-agenda-hour {
+  border-color: #cccccc;
+  border-style: solid none none;
+  border-width: 1px medium medium;
+}
+
+.calendar-calendar .more-events a {
+  width: 25px;
+  height: 13px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/plus-agenda.jpg);
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-right: 3px;
+}
+
+.calendar-calendar td.today .more-events a {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/plus-agenda2.jpg);
+}
+
+body.page-news-evenements #content-inner .view-evenements {
+  padding-left: 0;
+}
+
+body.page-news-evenements #content-inner .view-evenements .views-field-field-evenement-image-fid {
+  float: left;
+  margin-right: 8px;
+}
+
+body.page-news-evenements #content-inner .view-evenements .content-list {
+  padding-left: 85px;
+}
+
+body.section-systematic-tv h1.title {
+  margin-top: 0;
+}
+
+body.page-systematic-tv .view-display-id-page_2 .view-content {
+  padding-left: 150px;
+}
+
+body.page-systematic-tv .view-display-id-page_2 .views-row {
+  width: 420px;
+  color: #303030;
+}
+
+body.page-systematic-tv .view-display-id-page_2 .views-field-title a {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body.page-systematic-tv .view-display-id-page_2 .views-field-created {
+  color: #dc7d03;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+body.page-systematic-tv .view-display-id-page_2 .views-field-view-node {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body.page-systematic-tv .view-display-id-page_2 .views-field-view-node a {
+  font-weight: bold;
+  color: #303030;
+}
+
+body.page-systematic-tv #block-systematic-5 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+body.page-systematic-tv #block-systematic-5 ul {
+  padding-left: 0;
+}
+
+body.page-systematic-tv #block-systematic-5 li {
+  display: inline;
+}
+
+body.page-systematic-tv #block-systematic-5 a {
+  font-size: 11px;
+  color: #303030;
+}
+
+#block-views-videos-block_1 {
+  clear: both;
+}
+
+body.page-systematic-tv .view-display-id-block_1 .views-field-field-video-embed-embed {
+  float: left;
+  width: 82px;
+  margin-right: 8px;
+  margin-bottom: 20px;
+}
+
+#block-views-videos-block_1 .more-link {
+  clear: both;
+}
+
+#block-views-videos-block_1 .more-link a {
+  color: #dc7d03;
+  font-weight: bold;
+}
+
+body.page-systematic-tv .view-display-id-block_1 {
+  padding-left: 40px;
+}
+
+body.page-systematic-tv .view-display-id-block_1 .views-row {
+  float: left;
+  width: 300px;
+}
+
+body.page-systematic-tv .view-display-id-block_1 .views-row-odd {
+  clear: both;
+  margin-right: 10px;
+}
+
+body.page-systematic-tv .view-display-id-block_1 .views-field-teaser .field-content {
+  padding-left: 90px;
+}
+
+body.page-systematic-tv .view-display-id-block_1 .views-field-title a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+
+body.page-systematic-tv .view-display-id-block_1 .views-field-created {
+  font-size: 11px;
+  font-weight: bold;
+  color: #dc7d03;
+}
+
+body.section-systematic-tv .view-display-id-page_1 .views-field-field-video-embed-embed {
+  float: left;
+  width: 82px;
+  margin-right: 8px;
+  margin-bottom: 20px;
+}
+
+body.section-systematic-tv .view-display-id-page_1 .content-list .views-field-teaser .field-content {
+  padding-left: 90px;
+  color: #303030;
+  margin-bottom: 20px;
+}
+
+body.section-systematic-tv .view-display-id-page_1 .content-list .views-field-title a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+
+body.section-systematic-tv .view-display-id-page_1 .content-list .views-field-created {
+  font-size: 11px;
+  font-weight: bold;
+  color: #dc7d03;
+}
+
+body.section-systematic-tv .view-display-id-page_1 {
+  padding-left: 40px;
+}
+
+body.section-systematic-tv .view-display-id-page_1 .views-row {
+  float: left;
+  width: 300px;
+}
+
+body.section-systematic-tv .view-display-id-page_1 .views-row-odd {
+  clear: both;
+  margin-right: 10px;
+}
+
+body.section-systematic-tv h1.title {
+  color: #dc7d03;
+  margin-bottom: 20px;
+}
+
+body.section-systematic-tv .node-type-video .content {
+  padding-left: 150px;
+}
+
+body.section-systematic-tv .node-type-video .views-field-title h1 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body.section-systematic-tv .node-type-video .views-field-created {
+  color: #dc7d03;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+body.section-systematic-tv .node-type-video .views-field-teaser {
+  width: 420px;
+  color: #303030;
+}
+
+body.section-systematic-tv #content-area .meta {
+  width: 420px;
+}
+
+body h1.title {
+  margin-top: 20px;
+  color: #0a4d7e;
+}
+
+body.section-sitemap h1.title {
+  margin-bottom: 15px;
+}
+
+body #content-area h2 {
+  color: #0a4d7e;
+  font-size: 18px;
+}
+
+body #content-area h3, body #content-area h4 {
+  font-size: 14px;
+  color: #0a4d7e;
+}
+
+body #content-area li {
+  color: #303030;
+  list-style: none;
+  list-style-position: inside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-bleue.jpg);
+}
+
+body #content-area li p, body #content-area ul ul li p, body #content-area ol ol li p {
+  display: inline-block;
+  margin: 2px;
+}
+
+body #content-area ul ul li, body #content-area ol ol li {
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-bleue2.jpg);
+}
+
+body #content-area .views-field-tid ul, body #content-area .views-field-tid ol {
+  padding-left: 0;
+}
+
+body #content-area .views-field-tid li {
+  background-image: none;
+  padding-left: 0;
+}
+
+body #content-area .views-field-tid a {
+  color: #303030;
+}
+
+body .field-field-fichiers-joints li, body .field-field-articles-similaires li, {
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-bleue.jpg);
+}
+
+body #content-area .meta .terms-inline ul {
+  padding-left: 0;
+}
+
+body #content-area .meta .terms-inline li {
+  padding-left: 0;
+  padding-right: 8px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-tag.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+body #content-area .meta .terms-inline li.last {
+  background-image: none;
+}
+
+body .meta .terms-inline a {
+  color: #505050;
+  font-size: 11px;
+}
+
+body.section-le-pole h1.title, body.section-espace-medias h1.title {
+  margin-top: 20px;
+  color: #ceb300;
+}
+
+body.section-le-pole #content-area h2, body.section-espace-medias #content-area h2 {
+  color: #ceb300;
+  font-size: 15px;
+}
+
+body.section-le-pole #content-area h3, body.section-le-pole #content-area h4, body.section-espace-medias #content-area h3, body.section-espace-medias #content-area h4 {
+  color: #ceb300;
+}
+
+body.section-le-pole #content-area li, body.section-espace-medias #content-area li {
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-jaune.jpg);
+}
+
+body.section-le-pole #content-area ul ul li, body.section-espace-medias #content-area ul ul li {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-jaune2.jpg);
+}
+
+body.section-le-pole #content-area .views-field-tid ul, body.section-espace-medias #content-area .views-field-tid ul, body.section-le-pole #content-area .views-field-tid ol, body.section-espace-medias #content-area .views-field-tid ol {
+  padding-left: 0;
+}
+
+body.section-le-pole #content-area .views-field-tid li, body.section-espace-medias #content-area .views-field-tid li {
+  padding-left: 0;
+}
+
+body.section-le-pole #content-area .views-field-tid a
+body.section-espace-medias #content-area .views-field-tid a {
+  color: #303030;
+}
+
+body.section-le-pole #content-area .field-field-fichiers-joints li, body.section-le-pole #content-area .field-field-articles-similaires li, body.section-espace-medias #content-area .field-field-fichiers-joints li, body.section-espace-medias #content-area .field-field-articles-similaires li {
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-jaune.jpg);
+}
+
+body.section-les-projets h1.title {
+  margin-top: 20px;
+  color: #6a8913;
+}
+
+body.section-projets h1.title {
+  color: #6a8913;
+}
+
+body.section-les-projets #content-area h2 {
+  color: #6a8913;
+  font-size: 18px;
+}
+
+body.section-les-projets #content-area h3, body.section-les-projets #content-area h4 {
+  color: #6a8913;
+}
+
+body.section-les-projets #content-area li {
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-verte.jpg);
+}
+
+body.section-les-projets #content-area ul ul li, body.section-les-projets #content-area ol ol li {
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-verte2.jpg);
+}
+
+body.section-les-projets #content-area .views-field-tid ul, body.section-les-projets #content-area .views-field-tid ol {
+  padding-left: 0;
+}
+
+body.section-les-projets #content-area .views-field-tid li {
+  background-image: none;
+  padding-left: 0;
+}
+
+body.section-les-projets #content-area .views-field-tid a {
+  color: #303030;
+}
+
+body.section-les-projets #content-area .field-field-fichiers-joints li, body.section-les-projets #content-area .field-field-articles-similaires li {
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-verte.jpg);
+}
+
+body.section-actualites h1.title, body.section-actualites h1.title, body.section-news h1.title, body.section-news h1.title {
+  color: #b31359;
+}
+
+body.section-actualites #content-area li, body.section-news #content-area li {
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-violet.jpg);
+}
+
+body.section-actualites #content-area ul ul li, body.section-news #content-area ul ul li {
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-violet2.jpg);
+}
+
+body.section-actualites #content-area .submitted, body.section-news #content-area .submitted {
+  color: #b31359;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+body.section-actualites #footer-inner li, body.section-news #footer-inner li {
+  color: #ffffff;
+}
+
+body.section-actualites #actualite-navigation, body.section-news #actualite-navigation {
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+body.section-actualites #actualite-navigation .previous, body.section-news #actualite-navigation .previous {
+  float: left;
+}
+
+body.section-actualites #actualite-navigation .next, body.section-news #actualite-navigation .next {
+  float: right;
+}
+
+body.section-actualites .node-type-actualite .content, body.section-news .node-type-actualite .content {
+  margin-top: 20px;
+}
+
+body.section-actualites #content-area .field-field-fichiers-joints li, body.section-actualites #content-area .field-field-articles-similaires li, body.section-news #content-area .field-field-fichiers-joints li, body.section-news #content-area .field-field-articles-similaires li {
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-violet.jpg);
+}
+
+body.section-evenements h1.title {
+  color: #5892D5;
+}
+
+body.section-evenements #content-area ul {
+}
+
+body.section-evenements #content-area li {
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-bleuclair.jpg);
+}
+
+body.section-evenements #content-area ul ul li {
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-bleuclair2.jpg);
+}
+
+body.section-evenements #content-area .submitted {
+  color: #5892d5;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+body.section-evenements #footer-inner li {
+  color: #ffffff;
+}
+
+body.section-evenement .node-type-evenement .content {
+  margin-top: 20px;
+}
+
+body.section-evenements #content-area .field-field-fichiers-joints li, body.section-evenements #content-area .field-field-articles-similaires li {
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-bleuclair.jpg);
+}
+
+body.section-communiques h1.title {
+  margin-top: 20px;
+  color: #ceb300;
+}
+
+body.section-communiques .node-type-communique li {
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-jaune.jpg);
+  color: #303030;
+}
+
+body.section-communiques #content-area .submitted {
+  color: #ceb300;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+body.section-communiques #footer-inner li {
+  color: #ffffff;
+}
+
+body.section-communiques #content-area li {
+  list-style: none;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-jaune.jpg);
+  color: #303030;
+}
+
+body.section-le-pole #content-area .view-communiques-archive .views-field-tid ul, body.section-le-pole #content-area .view-communiques-archive .views-field-tid ol {
+  padding-left: 0;
+}
+
+body.section-le-pole #content-area .view-communiques-archive .views-field-tid li {
+  background-image: none;
+  list-style-image: none;
+  padding-left: 0;
+  display: inline;
+}
+
+body.section-le-pole #content-area .view-communiques-archive .views-field-tid a {
+  color: #303030;
+  font-size: 11px;
+}
+
+body.section-communiques #content-area .field-field-fichiers-joints ul, body.section-le-pole #content-area .field-field-articles-similaires ul {
+  padding-left: 20px;
+}
+
+body.section-communiques #content-area .field-field-fichiers-joints li, body.section-le-pole #content-area .field-field-articles-similaires li {
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-jaune.jpg);
+}
+
+body.section-le-mot-du-delegue-general h1.title, body.section-le-mot-des-vice-presidents-pme h1.title, body.section-le-mot-des-partenaires-institutionnels h1.title, body.section-la-parole-aux-partenaires-du-pole h1.title {
+  color: #dc7d03;
+}
+
+body.section-le-mot-du-delegue-general #content-area h2, body.section-le-mot-des-vice-presidents-pme #content-area h2, body.section-le-mot-des-partenaires-institutionnels #content-area h2, body.section-la-parole-aux-partenaires-du-pole #content-area h2 {
+  color: #dc7d03;
+}
+
+body.section-le-mot-du-delegue-general #content-area h3, body.section-le-mot-du-delegue-general #content-area h4, body.section-le-mot-des-vice-presidents-pme #content-area h3, body.section-le-mot-des-vice-presidents-pme #content-area h4, body.section-le-mot-des-partenaires-institutionnels #content-area h3, body.section-le-mot-des-partenaires-institutionnels #content-area h4, body.section-la-parole-aux-partenaires-du-pole #content-area h3, body.section-la-parole-aux-partenaires-du-pole #content-area h4 {
+  color: #dc7d03;
+}
+
+body.section-annuaire-membres h1.title {
+  margin-top: 0;
+}
+
+body.section-annuaire-membres .views-exposed-widgets {
+  width: 660px;
+  height: 490px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-annuaire-membres.jpg);
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_organisation_value_many_to_one {
+  float: left;
+  width: 640px;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_organisation_value_many_to_one label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_organisation_value_many_to_one .views-widget .form-checkboxes .form-item {
+  display: inline-block;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_organisation_value_many_to_one .views-widget .form-checkboxes label.option {
+  text-align: left;
+  float: none;
+  font-size: 12px;
+  color: #303030;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-title {
+  float: left;
+  font-weight: bold;
+  color: #303030;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-title #edit-title {
+  width: 211px;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_ville_value {
+  float: left;
+  font-weight: bold;
+  color: #303030;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_ville_value #edit-field-membre-ville-value {
+  width: 211px;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_dp_value_many_to_one {
+  width: 156px;
+  float: right;
+  margin-right: 30px;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_dp_value_many_to_one label {
+  font-weight: bold;
+  color: #303030;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_dp_value_many_to_one .views-widget {
+  width: 176px;
+  background-color: #ffffff;
+  border: solid 1px #c0c0c0;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_dp_value_many_to_one .form-checkboxes {
+  margin: 0;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_dp_value_many_to_one .form-checkboxes .form-item label {
+  float: none;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_dp_value_many_to_one .views-widget .form-checkboxes label.option {
+  width: 160px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  color: #303030;
+  padding-left: 5px;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-tid {
+  float: left;
+  width: 215px;
+  margin-top: 30px;
+  margin-right: 3px;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-tid label {
+  font-weight: bold;
+  color: #303030;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-tid .views-widget {
+  width: 215px;
+  background-color: #ffffff;
+  border: solid 1px #c0c0c0;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-tid .form-checkboxes {
+  margin: 0;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-tid .form-checkboxes .form-item label {
+  float: none;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-tid .form-checkboxes label.option {
+  width: 200px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  color: #303030;
+  padding-left: 5px;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_marche_value_many_to_one {
+  float: left;
+  width: 200px;
+  margin-top: 30px;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_marche_value_many_to_one label {
+  font-weight: bold;
+  color: #303030;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_marche_value_many_to_one .views-widget {
+  width: 215px;
+  background-color: #ffffff;
+  border: solid 1px #c0c0c0;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_marche_value_many_to_one .form-checkboxes {
+  margin: 0;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_marche_value_many_to_one .form-checkboxes .form-item label {
+  float: none;
+}
+
+body.section-annuaire-membres .views-exposed-widgets #filter-field_membre_marche_value_many_to_one .form-checkboxes label.option {
+  width: 200px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  color: #303030;
+  padding-left: 5px;
+}
+
+body.section-annuaire-membres .views-exposed-widgets .views-exposed-widget {
+  float: none;
+}
+
+body.section-annuaire-membres .views-exposed-widgets .views-exposed-widget #edit-submit-membres {
+  left: 370px;
+  position: absolute;
+  top: 570px;
+}
+
+body.section-annuaire-membres #content-area #projets-header {
+  width: 700px;
+  height: 39px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bandeau-annuaire-membre.jpg);
+  background-repeat: no-repeat;
+}
+
+body.subsites #content-area #projets-header {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bandeau-annuaire-membre-subsite.jpg);
+}
+
+body.section-annuaire-membres #content-area #projets-header h2 {
+  color: #ffffff;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+body.section-annuaire-membres #content-area .view-content .views-row {
+  padding-left: 20px;
+  width: 670px;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: 12px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/separation-annuaire.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+body.subsites #content-area .view-membres .view-content .views-row {
+  width: 650px;
+}
+
+body.section-annuaire-membres #content-area .view-content .views-row-first {
+  margin-top: 20px;
+  padding-top: 0;
+  background-image: none;
+}
+
+body.section-annuaire-membres #content-area .view-content .views-row .views-field-title a {
+  font-weight: bold;
+  font-size: 14px;
+  color: #1877c5;
+}
+
+body.section-annuaire-membres #content-area .view-content .views-row .views-field-field-membre-activite-value {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+body.section-annuaire-membres #content-area .view-content .views-row label {
+  font-weight: bold;
+}
+
+body.section-annuaire-membres #content-area .view-content .views-row .views-field-field-membre-organisation-value {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+body.section-annuaire-membres #content-area .view-content .views-row .views-field-field-membre-ville-value {
+  margin-bottom: 5px;
+}
+
+body.section-annuaire-membres #content-area .view-content .views-row .views-field-tid {
+  text-transform: inherit;
+}
+
+body.section-annuaire-membres #content-area .view-content .views-row .views-field-tid span {
+  font-weight: normal;
+}
+
+body.section-annuaire-projets h1.title {
+  margin-top: 0;
+}
+
+body.section-annuaire-projets .views-exposed-widgets {
+  width: 660px;
+  height: 335px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-annuaire-projets.jpg);
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+body.section-annuaire-projets .views-exposed-widgets #filter-tid {
+  float: left;
+  width: 640px;
+}
+
+body.section-annuaire-projets .views-exposed-widgets #filter-tid label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body.section-annuaire-projets .views-exposed-widgets #filter-tid .views-widget .form-checkboxes .form-item {
+  display: inline-block;
+}
+
+body.section-annuaire-projets .views-exposed-widgets #filter-tid .views-widget .form-checkboxes label.option {
+  text-align: left;
+  float: none;
+  font-size: 12px;
+  color: #303030;
+}
+
+body.section-annuaire-projets .views-exposed-widgets #filter-title {
+  float: left;
+  width: 200px;
+  font-weight: bold;
+  color: #303030;
+  margin-right: 56px;
+  margin-top: 30px;
+}
+
+body.section-annuaire-projets .views-exposed-widgets #filter-field_projet_porteur_value {
+  float: left;
+  width: 200px;
+  font-weight: bold;
+  color: #303030;
+  margin-right: 56px;
+  margin-top: 30px;
+}
+
+body.section-annuaire-projets .views-exposed-widgets #filter-field_projet_statut_value_many_to_one {
+  float: left;
+  width: 100px;
+  margin-top: 30px;
+}
+
+body.section-annuaire-projets .views-exposed-widgets #filter-field_projet_statut_value_many_to_one label {
+  font-weight: bold;
+  color: #303030;
+}
+
+body.section-annuaire-projets .views-exposed-widgets #filter-field_projet_statut_value_many_to_one .views-widget {
+  width: 100px;
+  background-color: #ffffff;
+  border: solid 1px #c0c0c0;
+}
+
+body.section-annuaire-projets .views-exposed-widgets #filter-field_projet_statut_value_many_to_one .form-checkboxes {
+  margin: 0;
+}
+
+body.section-annuaire-projets .views-exposed-widgets #filter-field_projet_statut_value_many_to_one .form-checkboxes .form-item label {
+  float: none;
+}
+
+body.section-annuaire-projets .views-exposed-widgets #filter-field_projet_statut_value_many_to_one .form-checkboxes label.option {
+  width: 150px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  color: #303030;
+  padding-left: 5px;
+}
+
+body.section-annuaire-projets .views-exposed-widgets .views-exposed-widget {
+  float: none;
+}
+
+body.section-annuaire-projets .views-exposed-widgets .views-exposed-widget #edit-submit-projets {
+  margin-left: 290px;
+  margin-top: 35px;
+}
+
+body.section-annuaire-projets .views-table {
+  width: 700px;
+}
+
+body.section-annuaire-projets .sticky-header tr {
+  background-color: #668412;
+}
+
+body.section-annuaire-projets #projets-header {
+  width: 700px;
+  height: 39px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bandeau-annuaire-projet.jpg);
+  background-repeat: no-repeat;
+}
+
+body.subsites #projets-header {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bandeau-annuaire-projet-subsite.jpg);
+}
+
+body.section-annuaire-projets #projets-header h2 {
+  color: #ffffff;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row {
+  padding-left: 20px;
+  width: 670px;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: 12px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/separation-annuaire.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+body.subsites #content-area .view-projets .view-content .views-row {
+  width: 650px;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row-first {
+  margin-top: 20px;
+  padding-top: 0;
+  background-image: none;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row-last {
+  margin-bottom: 20px;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-title a {
+  font-weight: bold;
+  font-size: 14px;
+  color: #6a8913;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row label {
+  font-weight: bold;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row span {
+  color: #6a8913;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-field-projet-date-debut-value {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-field-projet-date-fin-value {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-field-projet-duree-value {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-field-projet-statut-value {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-field-projet-montant-total-value {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-field-projet-montant-aide-value {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-tid {
+  clear: both;
+  text-transform: inherit;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-tid span {
+  font-weight: normal;
+  color: #303030;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-field-projet-membre-nid {
+  margin-top: 10px;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-field-projet-membre-nid .field-content {
+  margin-top: 5px;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-field-projet-membre-nid .field-content .field-item {
+  display: inline;
+  padding-left: 12px;
+  margin-left: 8px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-tag.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-field-projet-membre-nid .field-content .field-item-0 {
+  padding-left: 0;
+  margin-left: 0;
+  background-image: none;
+}
+
+body.section-annuaire-projets #content-area .view-content .views-row .views-field-field-projet-membre-nid .field-content .field-item a {
+  font-size: 11px;
+  color: #505050;
+}
+
+body.section-projets #projet-header .projet-image {
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-left: 20px;
+}
+
+body.section-projets #projet-presentation .projet-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+body.section-projets #projet-presentation {
+  margin-bottom: 30px;
+}
+
+body.section-projets #projet-presentation .projet-label {
+  color: #000000;
+  font-weight: bold;
+  float: left;
+  margin-right: 10px;
+}
+
+body.section-projets #projet-presentation .projet-content {
+  margin-bottom: 5px;
+  color: #303030;
+}
+
+body.section-projets #projet-header #projet-presentation .projet-image {
+  width: auto;
+  height: auto;
+  float: none;
+  margin-left: 0;
+}
+
+body.section-projets .projet-body {
+  clear: both;
+}
+
+body.section-projets .projet-mission {
+  margin-top: 20px;
+}
+
+body.section-projets .projet-body .projet-label, body.section-projets .projet-mission .projet-label, body.section-projets #projet-membres .projet-label {
+  color: #000000;
+  font-weight: bold;
+}
+
+body.section-projets .projet-mission .projet-content {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #303030;
+}
+
+body.section-projets #projet-donnees .projet-label {
+  color: #000000;
+  font-weight: bold;
+  float: left;
+  margin-right: 10px;
+}
+
+body.section-projets #projet-donnees .projet-content {
+  margin-bottom: 5px;
+  color: #303030;
+}
+
+body.section-projets #projet-donnees #projet-donnees-col1 {
+  float: left;
+  width: 300px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+body.section-projets #projet-donnees #projet-donnees-col2 {
+  margin-bottom: 20px;
+}
+
+body.section-projets #projet-membres .projet-content ul {
+  padding-left: 0;
+}
+
+body.section-projets #projet-membres .projet-content li {
+  float: left;
+  list-style: none;
+  list-style-image: none;
+}
+
+body.section-projets #projet-membres .projet-content a {
+  color: #303030;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+body.section-projets #projet-more {
+  clear: both;
+  padding-top: 10px;
+}
+
+body.section-projets #projet-more .projet-column h4 {
+  color: #303030;
+}
+
+body.section-projets #projet-more #projet-more-col1 {
+  float: left;
+  width: 310px;
+  margin-right: 15px;
+}
+
+body.section-projets #projet-more #projet-more-col1 ul {
+  margin-top: 5px;
+  width: 250px;
+  padding-left: 15px;
+}
+
+body.section-projets #projet-more #projet-more-col1 li {
+  padding-bottom: 5px;
+  list-style: none;
+  list-style-position: outside;
+  list-style-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-verte.jpg);
+}
+
+body.section-projets #projet-more #projet-more-col1 a {
+  color: #000000;
+}
+
+body.section-projets #projet-more #projet-more-col2 {
+  float: left;
+  width: 310px;
+}
+
+body.section-projets #projet-more #projet-more-col2 ul {
+  margin-top: 5px;
+  width: 250px;
+  padding-left: 15px;
+}
+
+body.section-projets #projet-more #projet-more-col2 li {
+  padding-bottom: 5px;
+}
+
+body.section-projets #projet-more #projet-more-col2 a {
+  color: #000000;
+}
+
+body.node-type-membre h1.title {
+  color: #1877c5;
+}
+
+body.node-type-membre #membre-header .membre-image {
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-left: 20px;
+}
+
+body.node-type-membre #membre-presentation .membre-title .membre-content {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+body.node-type-membre #membre-presentation {
+  margin-bottom: 30px;
+}
+
+body.node-type-membre #membre-presentation .field-label {
+  color: #000000;
+  font-weight: bold;
+  float: left;
+  margin-right: 10px;
+}
+
+body.node-type-membre #membre-presentation .field-items {
+  margin-bottom: 5px;
+  color: #303030;
+}
+
+body.node-type-membre #membre-header #membre-presentation .membre-image {
+  width: auto;
+  height: auto;
+  float: none;
+  margin-left: 0;
+}
+
+body.node-type-membre .membre-body .membre-image {
+  width: auto;
+  height: auto;
+  float: none;
+  margin-left: 0;
+}
+
+body.node-type-membre .membre-mission, body.node-type-membre .membre-activite, body.node-type-membre .membre-body {
+  margin-bottom: 10px;
+}
+
+body.node-type-membre .membre-mission p, body.node-type-membre .membre-activite p, body.node-type-membre .membre-body p {
+  margin: 0;
+}
+
+body.node-type-membre .membre-body .field-label, body.node-type-membre .membre-mission .field-label, body.node-type-membre #membre-projets .field-label, body.node-type-membre .membre-activite .field-label {
+  color: #000000;
+  font-weight: bold;
+}
+
+body.node-type-membre .membre-mission .field-items {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #303030;
+}
+
+body.node-type-membre #membre-donnees {
+  float: left;
+  clear: both;
+  width: 300px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+body.node-type-membre #membre-donnees h3 {
+  margin-top: 0;
+}
+
+body.node-type-membre #membre-donnees .field-label {
+  color: #000000;
+  font-weight: bold;
+  float: left;
+  margin-right: 10px;
+}
+
+body.node-type-membre #membre-donnees .field-items {
+  margin-bottom: 5px;
+  color: #303030;
+}
+
+body.node-type-membre #groupes-thematiques {
+  float: left;
+}
+
+body.node-type-membre #groupes-thematiques h3 {
+  margin-top: 0;
+}
+
+body.node-type-membre #groupes-thematiques .field-items {
+  margin-bottom: 5px;
+  color: #303030;
+  font-weight: bold;
+}
+
+body.node-type-membre #membre-projets {
+  clear: both;
+}
+
+body.node-type-membre #membre-projets .membre-content ul {
+  padding-left: 0;
+}
+
+body.node-type-membre #membre-projets .membre-content li {
+  float: left;
+  list-style: none;
+  list-style-image: none;
+}
+
+body.node-type-membre #membre-projets .membre-content a {
+  color: #303030;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+body.node-type-membre #membre-contact {
+  clear: both;
+  padding-top: 10px;
+}
+
+body.node-type-membre #membre-contact a {
+  font-weight: bold;
+  color: #303030;
+  padding-left: 10px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-bleuclair.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+body.node-type-membre #membre-infos #membre-infos-inner h3 img {
+  margin-top: 25px;
+}
+
+body.node-type-membre #membre-infos #membre-infos-inner .views-row .views-field-field-actualite-image-fid {
+  float: left;
+  margin-right: 8px;
+}
+
+body.node-type-membre #membre-infos #membre-infos-inner .views-row .content-list {
+  padding-left: 83px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+body.node-type-membre #membre-infos #membre-infos-inner .views-row .views-field-title a {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+body.node-type-membre #membre-infos #membre-infos-inner .views-row .views-field-created {
+  color: #5892d5;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+body.node-type-membre #membre-infos #membre-infos-inner .views-row .views-field-tid li {
+  list-style: none;
+  list-style-image: none;
+  display: inline;
+}
+
+body.section-nous-contacter #main .content {
+  text-align: center;
+}
+
+body.section-nous-contacter #main .node-inner .content strong {
+  color: #0a4c80;
+}
+
+body.section-nous-contacter #main .content .webform-client-form {
+  text-align: left;
+}
+
+body.section-nous-contacter #main .content .webform-client-form label {
+  width: 110px;
+}
+
+body.section-nous-contacter #main .content .webform-client-form input {
+  width: 500px;
+}
+
+body.section-nous-contacter #page #main .content .webform-client-form .resizable-textarea textarea {
+  width: 500px;
+}
+
+body.section-nous-contacter #page #main .content .webform-client-form .resizable-textarea {
+  padding-left: 115px;
+}
+
+body.section-nous-contacter #page #main .content .webform-client-form #edit-submit {
+  width: 100px;
+  margin-left: 315px;
+}
+
+#page #content-area .pager {
+  text-align: right;
+  padding-left: 0;
+}
+
+#page #content-area .pager li {
+  padding: 0;
+  background-image: none;
+}
+
+#page .pager a {
+  color: #303030;
+  font-weight: bold;
+}
+
+#page .pager .pager-current {
+  color: #000000;
+}
+
+#comments {
+  clear: both;
+}
+
+.form-item label {
+  display: block;
+  font-weight: normal;
+  float: left;
+  width: 100px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+#page .resizable-textarea textarea {
+  width: 540px;
+  height: 150px;
+}
+
+.resizable-textarea {
+  padding-left: 105px;
+}
+
+#edit-name {
+  width: 300px;
+}
+
+#edit-mail-wrapper .description {
+  display: none;
+}
+
+#edit-mail {
+  width: 300px;
+}
+
+#edit-homepage {
+  width: 300px;
+}
+
+#edit-subject {
+  width: 300px;
+}
+
+#edit-submit {
+  margin-left: 290px;
+}
+
+.comment_reply a {
+  display: none;
+}
+
+.form-item label.option {
+  display: inline;
+  font-weight: normal;
+}
+
+#comments #comments-title {
+  margin-top: 30px;
+}
+
+#comments .comment .title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#comments .comment .title a {
+  color: #000000;
+}
+
+body.section-actualites #comments .comment .submitted a {
+  color: #707070;
+  text-decoration: underline;
+}
+
+body.section-actualites #comments .comment .submitted a:hover {
+  text-decoration: none;
+}
+
+body.section-actualites #comments .comment .submitted {
+  font-size: 12px;
+  font-weight: bold;
+  color: #707070;
+  margin-bottom: 0;
+}
+
+body.section-actualites #comment-form .form-item label {
+  color: #707070;
+}
+
+body.section-evenements #comments .comment .submitted a {
+  color: #707070;
+  text-decoration: underline;
+}
+
+body.section-evenements #comments .comment .submitted a:hover {
+  text-decoration: none;
+}
+
+body.section-evenements #comments .comment .submitted {
+  font-size: 12px;
+  font-weight: bold;
+  color: #707070;
+  margin-bottom: 0;
+}
+
+body.section-evenements #comment-form .form-item label {
+  color: #707070;
+}
+
+body.section-systematic-tv #comments .comment .submitted a {
+  color: #707070;
+  text-decoration: underline;
+}
+
+body.section-systematic-tv #comments .comment .submitted a:hover {
+  text-decoration: none;
+}
+
+body.section-systematic-tv #comments .comment .submitted {
+  font-size: 12px;
+  font-weight: bold;
+  color: #707070;
+  margin-bottom: 0;
+}
+
+body.section-systematic-tv #comment-form .form-item label {
+  color: #707070;
+}
+
+#comments .box h2.title {
+  display: block;
+  margin-top: 25px;
+  width: 324px;
+  height: 16px;
+  text-indent: -10000px;
+}
+
+body.i18n-fr .comment-actualite .box h2.title {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/post-comments-actualite.jpg);
+  background-repeat: no-repeat;
+}
+
+body.i18n-fr .comment-evenement .box h2.title {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/post-comments-evenement.jpg);
+  background-repeat: no-repeat;
+}
+
+body.i18n-fr .comment-video .box h2.title {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/fr/post-comments-video.jpg);
+  background-repeat: no-repeat;
+}
+
+.field-field-fichiers-joints {
+  float: left;
+  width: 310px;
+  margin-right: 15px;
+}
+
+.field-field-fichiers-joints ul {
+  margin-top: 5px;
+  width: 250px;
+  padding-left: 15px;
+}
+
+.field-field-fichiers-joints li {
+  padding-bottom: 5px;
+  list-style-position: outside;
+}
+
+.field-field-fichiers-joints .field-label {
+  color: #303030;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.field-field-fichiers-joints .filefield-icon {
+  display: none;
+}
+
+.field-field-fichiers-joints a {
+  color: #000000;
+}
+
+.field-field-articles-similaires {
+  float: left;
+  width: 310px;
+}
+
+.field-field-articles-similaires .field-label {
+  color: #303030;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.field-field-articles-similaires ul {
+  margin-top: 5px;
+  width: 250px;
+  padding-left: 15px;
+}
+
+.field-field-articles-similaires li {
+  padding-bottom: 5px;
+  list-style-position: outside;
+}
+
+.field-field-articles-similaires a {
+  color: #000000;
+}
+
+body.section-mots-cles #content {
+  width: 720px;
+}
+
+body.section-mots-cles .title, body.section-taxonomy .title {
+  color: #000000;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#content-inner .view-taxonomy-term {
+  color: #303030;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#content-inner .view-taxonomy-term .views-row {
+  margin-bottom: 10px;
+}
+
+#content-inner .view-taxonomy-term img {
+  float: left;
+  margin-right: 6px;
+  border: solid 1px #7b7b7b;
+}
+
+#content-inner .view-taxonomy-term .content-list {
+  padding-left: 83px;
+  margin-bottom: 20px;
+}
+
+#content-inner .view-taxonomy-term .views-field-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#content-inner .view-taxonomy-term .views-field-title a {
+  color: #000000;
+}
+
+#content-inner .view-taxonomy-term .views-field-created {
+  color: #1877c5;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#content-inner .view-taxonomy-term .views-field-field-evenement-date-value {
+  color: #1877c5;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#content-inner .view-taxonomy-term .views-field-tid {
+  font-weight: bold;
+}
+
+#content-inner .view-taxonomy-term .views-field-tid ul, #content-inner .view-taxonomy-term .views-field-tid ol {
+  padding-left: 0;
+}
+
+#content-inner .view-taxonomy-term .views-field-tid li {
+  display: inline;
+}
+
+#content-inner .view-taxonomy-term .views-field-tid a {
+  font-size: 11px;
+}
+
+#content-inner .view-taxonomy-term .views-field-tid a.active {
+  color: #303030;
+}
+
+#content-inner .view-taxonomy-term .more-link a {
+  color: #b31359;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#content-inner .view-taxonomy-term .more-link a:hover {
+  text-decoration: none;
+}
+
+body.section-user #user-profile-form fieldset {
+  border: none;
+  color: #000000;
+}
+
+body.section-user #user-profile-form legend {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body.section-user #user-profile-form .form-checkboxes {
+  width: 600px;
+  padding-left: 40px;
+  color: #000000;
+}
+
+body.section-user #user-profile-form .form-checkboxes .form-item {
+  display: inline-block;
+}
+
+body.section-user #user-profile-form .form-checkboxes .form-item label.option {
+  width: auto;
+}
+
+body.section-user #user-profile-form .notification-title {
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 40px;
+  color: #000000;
+  background: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-alertes-mail.jpg) left top no-repeat;
+}
+
+body.section-user #user-profile-form .notification-item {
+  width: 600px;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+body.section-user #user-profile-form .notification-item .form-item {
+  display: inline-block;
+}
+
+body.section-user #user-profile-form .notification-item .form-item label.option {
+  width: auto;
+  margin-right: 80px;
+  color: #000000;
+}
+
+body.section-user #user-profile-form #edit-submit {
+  margin-left: 290px;
+  margin-bottom: 30px;
+}
+
+body.section-user .messages {
+  margin-top: 20px;
+}
+
+body.section-user #main #content-header .primary {
+}
+
+body.section-user-profile #content-header .tabs ul.primary {
+  display: none;
+}
+
+body.subsites #block-views-actualites-block_2 {
+  width: 450px;
+  float: left;
+}
+
+body.subsites #block-views-actualites-block_2 .view-actualites {
+  border: none;
+}
+
+body.subsites #block-views-evenements-block_3 {
+  width: 200px;
+  float: left;
+  padding-left: 0;
+}
+
+body.subsites #block-views-evenements-block_3 .view-evenements {
+  padding-left: 0;
+}
+
+body.subsites #block-views-evenements-block_3 .view-evenements .views-field-title {
+  font-size: 12px;
+}
+
+body.subsites-content #content-inner .view-actualites .views-field-tid {
+  padding-left: 84px;
+}
+
+body.subsites-front #content-inner .view-actualites .views-field-tid {
+  padding-left: 0;
+}
+
+body.subsites #content-inner .view-evenements {
+  padding-left: 0;
+}
+
+body.subsites #content-inner .view-evenements .views-field-field-evenement-image-fid {
+  float: left;
+}
+
+#mission {
+}
+
+#content-top {
+}
+
+#content-header {
+}
+
+.breadcrumb {
+  padding-bottom: 0;
+}
+
+h1.title, h2.title, h3.title {
+  margin: 0;
+}
+
+div.messages {
+}
+
+div.status {
+}
+
+div.warning, tr.warning {
+}
+
+div.error, tr.error {
+}
+
+div.tabs {
+}
+
+.help {
+  margin: 1em 0;
+}
+
+.more-help-link {
+  font-size: 0.85em;
+  text-align: right;
+}
+
+#content-area {
+}
+
+ul.links {
+  margin: 1em 0;
+  padding: 0;
+}
+
+ul.links.inline {
+  margin: 0;
+  display: inline;
+}
+
+ul.links li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 0.5em;
+}
+
+.pager {
+  clear: both;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.pager a, .pager strong.pager-current {
+  padding: 0 0 0 3px;
+}
+
+.feed-icons {
+  margin: 1em 0;
+}
+
+#content-bottom {
+}
+
+body.two-sidebars #content-header .tabs {
+  padding-left: 70px;
+}
+
+#sidebar-left-inner a, sidebar-left-inner a:hover {
+  color: #303030;
+}
+
+#sidebar-left-inner #block-systematic-8 {
+  width: 157px;
+  margin-bottom: 0;
+}
+
+#sidebar-left-inner #block-systematic-8 .title {
+  line-height: 10px;
+}
+
+#sidebar-left-inner #block-systematic-8 .archive-list {
+  padding-left: 20px;
+}
+
+#sidebar-left-inner #block-systematic-8 .archive-title {
+  font-weight: bold;
+  color: #b31359;
+  padding-left: 10px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-archives.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  cursor: pointer;
+}
+
+#sidebar-left-inner #block-systematic-8 .expanded .archive-title {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-archives-expanded.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#sidebar-left-inner #block-systematic-8 .view-actualites-archive ul {
+  padding-left: 10px;
+}
+
+#sidebar-left-inner #block-systematic-8 .view-actualites-archive li {
+  padding-left: 10px;
+  list-style-type: none;
+  list-style-image: none;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-archives2.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#sidebar-left-inner #block-systematic-8 .content {
+  padding-top: 5px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-views-actualites-block.jpg);
+  background-repeat: repeat-y;
+}
+
+#sidebar-left-inner #block-systematic-8 .content a {
+  color: #000000;
+}
+
+#sidebar-left-inner #block-systematic-6 h3 {
+  margin: 0;
+}
+
+#sidebar-left-inner #block-systematic-6 h2.title {
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar-left-inner #block-systematic-6 .content {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-views-actualites-block.jpg);
+  background-repeat: repeat-y;
+  padding-left: 15px;
+  padding-right: 40px;
+}
+
+#sidebar-left-inner #block-systematic-6 .content .item-list {
+  width: 140px;
+}
+
+#sidebar-left-inner #block-systematic-6 .content .item-list li {
+  list-style: none;
+}
+
+#sidebar-left-inner #block-systematic-6 .block-footer-background {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bgbottom-views-actualites-block.jpg);
+  background-repeat: no-repeat;
+  width: 157px;
+  height: 23px;
+}
+
+#sidebar-left-inner #block-systematic-9 {
+  width: 157px;
+  margin-bottom: 0;
+}
+
+#sidebar-left-inner #block-systematic-9 .title {
+  line-height: 10px;
+}
+
+#sidebar-left-inner #block-systematic-9 .archive-list {
+  padding-left: 20px;
+}
+
+#sidebar-left-inner #block-systematic-9 .archive-title {
+  font-weight: bold;
+  color: #b31359;
+  padding-left: 10px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-archives.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  cursor: pointer;
+}
+
+#sidebar-left-inner #block-systematic-9 .expanded .archive-title {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-archives-expanded.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#sidebar-left-inner #block-systematic-9 .view-communiques-archive ul {
+  padding-left: 10px;
+}
+
+#sidebar-left-inner #block-systematic-9 .view-communiques-archive li {
+  padding-left: 10px;
+  list-style-type: none;
+  list-style-image: none;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-archives2.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#sidebar-left-inner #block-systematic-9 .content {
+  padding-top: 5px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-views-actualites-block.jpg);
+  background-repeat: repeat-y;
+}
+
+#sidebar-left-inner #block-systematic-9 .content a {
+  color: #000000;
+}
+
+#sidebar-left-inner #block-systematic-7 h3 {
+  margin: 0;
+}
+
+#sidebar-left-inner #block-systematic-7 h2.title {
+  margin: 0;
+  padding: 0;
+  line-height: 5px;
+}
+
+#sidebar-left-inner #block-systematic-7 .content {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-views-actualites-block.jpg);
+  background-repeat: repeat-y;
+  padding-left: 15px;
+  padding-right: 40px;
+}
+
+#sidebar-left-inner #block-systematic-7 .content .item-list {
+  width: 140px;
+}
+
+#sidebar-left-inner #block-systematic-7 .content .item-list li {
+  list-style: none;
+}
+
+#sidebar-left-inner #block-systematic-7 .block-footer-background {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bgbottom-views-actualites-block.jpg);
+  background-repeat: no-repeat;
+  width: 157px;
+  height: 23px;
+}
+
+body.two-sidebars #page #content #content-area {
+  padding-left: 150px;
+  padding-top: 10px;
+}
+
+body.two-sidebars #sidebar-left {
+  margin-top: 170px;
+  margin-left: 18px;
+}
+
+body.two-sidebars #sidebar-right {
+  margin-left: 717px;
+}
+
+body.two-sidebars #content-inner #content-header .title {
+  padding-left: 150px;
+}
+
+body.page-news-actualites #content-inner #content-header .title {
+  padding-left: 0;
+}
+
+body.section-le-pole #content-inner #content-header .title {
+  padding-left: 0;
+}
+
+body.subsites-content #sidebar-right #sidebar-right-inner {
+  margin-top: 100px;
+}
+
+body.subsites #sidebar-right-inner a, body.subsites #sidebar-right-inner a:hover {
+  color: #303030;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-10 {
+  width: 250px;
+  margin-bottom: 0;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-10 .title {
+  line-height: 10px;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-10 .archive-list {
+  padding-left: 20px;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-10 .archive-title {
+  font-weight: bold;
+  color: #b31359;
+  padding-left: 10px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-archives.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  cursor: pointer;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-10 .expanded .archive-title {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-archives-expanded.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-10 .view-actualites-archive ul {
+  padding-left: 10px;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-10 .view-actualites-archive li {
+  padding-left: 10px;
+  list-style-type: none;
+  list-style-image: none;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/puce-archives2.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-10 .content {
+  padding-top: 5px;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-views-actualites-block-subsites.jpg);
+  background-repeat: repeat-y;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-10 .content a {
+  color: #000000;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-10 .content ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-11 h2 {
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-11 .content {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-views-actualites-block-subsites.jpg);
+  background-repeat: repeat-y;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-11 .content .item-list {
+  width: 140px;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-11 .content .item-list li {
+  list-style: none;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-11 .content .item-list ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 30px;
+}
+
+body.subsites #sidebar-right-inner #block-systematic-11 .block-footer-background {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bgbottom-subsites-views-actualites-block.jpg);
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 23px;
+}
+
+body.front #block-menu-menu-systematic-2 {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/ombre-menu-menu-systematic-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 18px;
+  width: 290px;
+  text-transform: uppercase;
+}
+
+body.front #block-menu-menu-systematic-2 h2 {
+  margin-bottom: 0;
+  height: 82px;
+}
+
+body.front #block-menu-menu-systematic-2 .content {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-menu-menu-systematic-2-home.jpg);
+  background-repeat: repeat-y;
+  padding-bottom: 5px;
+}
+
+body.front #block-menu-menu-systematic-2 ul {
+  margin: 0;
+  padding-left: 8px;
+  width: 262px;
+}
+
+body.front #block-menu-menu-systematic-2 .menu li {
+  margin-bottom: 20px;
+  list-style: none;
+  list-style-image: none;
+}
+
+body.front #block-menu-menu-systematic-2 .menu .menu {
+  padding-left: 60px;
+  text-transform: none;
+  width: 200px;
+}
+
+body.front #block-menu-menu-systematic-2 .menu .menu li {
+  margin-bottom: 0;
+  list-style: square;
+  color: #276da0;
+}
+
+body.front #block-menu-menu-systematic-2 .menu .menu li.first {
+  margin-top: 8px;
+}
+
+body.front #block-menu-menu-systematic-2 li.last {
+  margin-bottom: 0;
+}
+
+body.front #block-menu-menu-systematic-2 .menu a {
+  color: #000000;
+  font-size: 12px;
+  padding-left: 36px;
+  display: block;
+  height: 28px;
+}
+
+body.front #block-menu-menu-systematic-2 .menu .menu a {
+  color: #6f6f6f;
+  font-size: 12px;
+  padding-left: 0;
+  height: auto;
+}
+
+body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-680-1, body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1849-1 {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/pictos/picto_participe_pole.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-950-1, body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1850-1 {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/pictos/picto_partenariats.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1280-1, body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1851-1 {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/pictos/picto_thematiques.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1281-1, body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1852-1 {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/pictos/picto_pme.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1282-1, body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1853-1 {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/pictos/picto_competences.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1283-1, body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1854-1 {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/pictos/picto_international.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1284-1, body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1855-1 {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/pictos/picto_faq.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1285-1, body.front #block-menu-menu-systematic-2 .menu #dhtml_menu-1856-1 {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/pictos/picto_infos.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+body.front #block-menu-menu-systematic-2 .block-footer-background {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bottom-menu-menu-systematic-2-home.jpg);
+  background-repeat: no-repeat;
+  width: 272px;
+  height: 10px;
+}
+
+body.front #block-views-bandeaux_partenaires-block_1 {
+  padding-left: 18px;
+}
+
+body.front #block-views-bandeaux_partenaires-block_1 .title {
+  margin-bottom: 5px;
+}
+
+body.front #block-views-bandeaux_partenaires-block_1 .content {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bgtop-views-bandeaux_partenaires-block_1-home.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 272px;
+  text-align: center;
+  padding-top: 17px;
+}
+
+body.front #block-views-bandeaux_partenaires-block_1 .view-bandeaux-partenaires #views_slideshow_singleframe_teaser_section_bandeaux_partenaires-block_1 .views_slideshow_slide {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-views-bandeaux_partenaires-block_1-home.jpg);
+  background-repeat: repeat-y;
+  width: 272px;
+  text-align: center;
+}
+
+body.front #block-views-bandeaux_partenaires-block_1 .block-footer-background {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bgbottom-views-bandeaux_partenaires-block_1-home.jpg);
+  background-repeat: no-repeat;
+  width: 272px;
+  height: 17px;
+}
+
+body.subsites #content #content-inner {
+  padding-left: 50px;
+}
+
+body.subsites #sidebar-right #block-simplenews-92 {
+  border-top: solid 1px #cccccc;
+  padding-top: 10px;
+}
+
+body.subsites #sidebar-right #block-simplenews-92 label {
+  text-align: left;
+}
+
+body.subsites #sidebar-right #block-simplenews-92 h2.title {
+  float: left;
+  margin-right: 5px;
+}
+
+body.subsites #sidebar-right #block-simplenews-92 .form-item {
+  color: #303030;
+  font-weight: bold;
+  float: left;
+  margin-top: 7px;
+}
+
+body.subsites #sidebar-right #block-simplenews-92 .form-item label {
+  display: none;
+}
+
+body.subsites #sidebar-right #block-simplenews-92 #edit-mail-wrapper {
+  margin: 0;
+  padding-top: 4px;
+  margin-bottom: 15px;
+  float: left;
+}
+
+body.subsites #sidebar-right #block-simplenews-92 #edit-mail-wrapper label {
+  width: 70px;
+  color: #000000;
+  font-weight: bold;
+  padding-top: 2px;
+  display: inline;
+}
+
+body.subsites #sidebar-right #block-simplenews-92 #edit-mail-wrapper .form-required {
+  display: none;
+}
+
+body.subsites #sidebar-right #block-simplenews-92 #edit-mail {
+  width: 100px;
+  margin-right: 5px;
+}
+
+body.subsites #sidebar-right #block-simplenews-92 #edit-action-subscribe-wrapper label {
+  width: 100px;
+}
+
+body.subsites #sidebar-right #block-simplenews-92 #edit-action-unsubscribe-wrapper label {
+  width: 130px;
+}
+
+body.subsites #sidebar-right #block-simplenews-92 #edit-submit, body.subsites #sidebar-right #block-simplenews-92 #edit-submit-1 {
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+body.not-logged-in #sidebar-right #block-simplenews-92 #edit-submit, body.not-logged-in #sidebar-right #block-simplenews-92 #edit-submit-1 {
+  margin-left: 0;
+  margin-top: 4px;
+}
+
+#block-systematic-4 {
+  position: absolute;
+  top: 70px;
+  padding-left: 60px;
+}
+
+#block-systematic-4 a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+#block-systematic-4 a:hover {
+  text-decoration: none;
+}
+
+body.subsites #block-systematic-4 {
+  top: 150px;
+  padding-left: 95px;
+}
+
+#block-systematic-3 {
+  position: absolute;
+  top: 120px;
+  padding-left: 30px;
+}
+
+#block-systematic-3 #addthis li {
+  display: inline;
+  margin-left: 5px;
+}
+
+#block-systematic-3 #addthis li#email {
+  margin-left: 20px;
+}
+
+body.subsites #block-systematic-3 {
+  top: 190px;
+  padding-left: 35px;
+}
+
+#block-menu-menu-systematic-2 {
+  padding-left: 18px;
+  width: 260px;
+  text-transform: uppercase;
+}
+
+#block-menu-menu-systematic-2 h2 {
+  margin-bottom: 0;
+  height: 88px;
+}
+
+#block-menu-menu-systematic-2 .content {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-menu-menu-systematic-2.jpg);
+  background-repeat: repeat-y;
+  padding-bottom: 5px;
+}
+
+#block-menu-menu-systematic-2 ul {
+  margin: 0;
+  padding-left: 30px;
+  width: 160px;
+}
+
+#block-menu-menu-systematic-2 .menu li {
+  margin-bottom: 20px;
+  color: #276da0;
+  list-style: square;
+  list-style-image: none;
+}
+
+#block-menu-menu-systematic-2 .menu .menu {
+  padding-left: 20px;
+  text-transform: none;
+  width: 120px;
+}
+
+#block-menu-menu-systematic-2 .menu .menu li {
+  margin-bottom: 0;
+  list-style: square;
+  color: #276da0;
+}
+
+#block-menu-menu-systematic-2 .menu .menu li.first {
+  margin-top: 8px;
+}
+
+#block-menu-menu-systematic-2 li.last {
+  margin-bottom: 0;
+}
+
+#block-menu-menu-systematic-2 .menu a {
+  color: #000000;
+  font-size: 12px;
+}
+
+#block-menu-menu-systematic-2 .menu .menu a {
+  color: #6f6f6f;
+  font-size: 12px;
+  padding-left: 0;
+  height: auto;
+}
+
+#block-menu-menu-systematic-2 .menu .menu a.active {
+  color: #0a4d7e;
+}
+
+#block-menu-menu-systematic-2 .block-footer-background {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bottom-menu-menu-systematic-2.jpg);
+  background-repeat: no-repeat;
+  width: 208px;
+  height: 16px;
+}
+
+#block-menu-menu-systematic-2 a.with-submenu {
+  outline: none;
+}
+
+#block-views-bandeaux_partenaires-block_1 {
+  padding-left: 24px;
+}
+
+#block-views-bandeaux_partenaires-block_1 .title {
+  margin-bottom: 5px;
+}
+
+#block-views-bandeaux_partenaires-block_1 .content {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bgtop-views-bandeaux_partenaires-block_1.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 196px;
+  text-align: center;
+  padding-top: 17px;
+}
+
+#block-views-bandeaux_partenaires-block_1 .view-bandeaux-partenaires {
+  padding-left: 0;
+}
+
+#block-views-bandeaux_partenaires-block_1 .view-bandeaux-partenaires #views_slideshow_singleframe_teaser_section_bandeaux_partenaires-block_1 .views_slideshow_slide {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg-views-bandeaux_partenaires-block_1.jpg);
+  background-repeat: repeat-y;
+  width: 196px;
+  height: 50px;
+  text-align: center;
+}
+
+#block-views-bandeaux_partenaires-block_1 .block-footer-background {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bgbottom-views-bandeaux_partenaires-block_1.jpg);
+  background-repeat: no-repeat;
+  width: 196px;
+  height: 17px;
+}
+
+#footer {
+  background-color: #1467aa;
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg_footer_top.jpg);
+  background-position: top;
+  background-repeat: repeat-x;
+  margin-top: 30px;
+}
+
+#footer-inner {
+  width: 1000px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+#footer-inner ul {
+  margin: 0;
+}
+
+#footer-inner li {
+  list-style: square;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+#footer-inner a {
+  color: #ffffff;
+}
+
+#footer-inner .edit a {
+  color: #303030;
+}
+
+#footer-inner a:hover {
+  text-decoration: underline;
+}
+
+#footer-message {
+}
+
+#block-systematic-0 {
+  float: left;
+  width: 19%;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 20px;
+  text-align: center;
+}
+
+#block-systematic-0 p {
+  margin: 0;
+  color: #ffffff;
+}
+
+#block-systematic-0 ul {
+  margin-top: 10px;
+  padding-right: 10px;
+  padding-left: 15px;
+}
+
+#block-systematic-0 li {
+  margin: 5px;
+  display: inline;
+}
+
+#block-menu-menu-groupes-thematiques {
+  float: left;
+  width: 19%;
+  margin: 0;
+}
+
+#block-menu-menu-projets-rd {
+  float: left;
+  width: 19%;
+  margin: 0;
+}
+
+#block-menu-menu-ambition-pme {
+  float: left;
+  width: 19%;
+  margin: 0;
+}
+
+#block-block-1 {
+  float: left;
+  width: 19%;
+  height: 26px;
+  margin: 0;
+}
+
+#block-block-1 p, #block-block-14 p {
+  margin: 0;
+}
+
+#footer2 {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/bg_footer_bottom.jpg);
+  background-repeat: repeat-x;
+  height: 16px;
+}
+
+#footer2-inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#block-menu-menu-footer {
+  margin: 0;
+}
+
+#block-menu-menu-footer .menu {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+  line-height: 11px;
+}
+
+#block-menu-menu-footer .menu li {
+  display: inline;
+  padding-right: 7px;
+  margin-left: 2px;
+}
+
+#block-menu-menu-footer .menu li.leaf {
+  background-image: url(http://www.systematic-paris-region/sites/all/themes/spr/images/separate_footer2.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+#block-menu-menu-footer .menu li.last {
+  background-image: none;
+}
+
+#block-menu-menu-footer .menu a {
+  color: #0b4d82;
+  font-size: 11px;
+}
+
+#edit-delete {
+  display: none;
+}
+
+#closure-blocks {
+}
+
+.node {
+}
+
+.node-inner {
+}
+
+.sticky {
+}
+
+.node-unpublished {
+}
+
+.node-unpublished div.unpublished, .comment-unpublished div.unpublished {
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.node-mine {
+}
+
+.node-teaser {
+}
+
+.node-type-page {
+}
+
+.node-type-story {
+}
+
+.node h2.title {
+}
+
+.marker {
+  color: #c00;
+}
+
+.node .picture {
+}
+
+.node.node-unpublished .picture, .comment.comment-unpublished .picture {
+  position: relative;
+}
+
+.node .meta {
+}
+
+.node .submitted {
+}
+
+.node .terms {
+}
+
+.node .content {
+}
+
+.node ul.links {
+}
+
+.preview .node {
+}
+
+#comments {
+  margin: 1em 0;
+}
+
+#comments-title {
+}
+
+.comment {
+}
+
+.comment-inner {
+}
+
+.comment-preview {
+}
+
+.comment.new {
+}
+
+.comment.odd {
+}
+
+.comment.even {
+}
+
+.comment.first {
+}
+
+.comment.last {
+}
+
+.comment-unpublished {
+}
+
+.comment-unpublished div.unpublished {
+}
+
+.comment-published {
+}
+
+.comment-by-anon {
+}
+
+.comment-by-author {
+}
+
+.comment-mine {
+}
+
+.comment h3.title {
+}
+
+.new {
+  color: #c00;
+}
+
+.comment .picture {
+}
+
+.comment .submitted {
+}
+
+.comment .content {
+}
+
+.comment .user-signature {
+}
+
+.comment ul.links {
+  margin: 1em 0;
+}
+
+.indented {
+}
+
+.preview .comment {
+}
+
+.block {
+  margin-bottom: 1em;
+}
+
+.block.region-odd {
+}
+
+.block.region-even {
+}
+
+.block.odd {
+}
+
+.block.even {
+}
+
+.region-count-1 {
+}
+
+.count-1 {
+}
+
+.block-inner {
+}
+
+.block h2.title {
+}
+
+.block .content {
+}
+
+#block-aggregator-category-1 {
+}
+
+#block-aggregator-feed-1 {
+}
+
+#block-block-1 {
+}
+
+#block-blog-0 {
+}
+
+#block-book-0 {
+}
+
+#block-comment-0 {
+}
+
+#block-forum-0 {
+}
+
+#block-forum-1 {
+}
+
+#block-menu-primary-links {
+}
+
+#block-menu-secondary-links {
+}
+
+#block-node-0 {
+}
+
+#block-poll-0 {
+}
+
+#block-profile-0 {
+}
+
+#block-search-0 {
+}
+
+#block-statistics-0 {
+}
+
+#block-user-0 {
+}
+
+#block-user-1 {
+}
+
+#block-user-2 {
+}
+
+#block-user-3 {
+}
+
+.box {
+}
+
+.box-inner {
+}
+
+.box h2.title {
+}
+
+.box .content {
+}
+
+.error {
+}
+
+.warning {
+}
+
+.more-link {
+  text-align: right;
+}
+
+#user-login-form {
+  text-align: left;
+}
+
+tr.even {
+}
+
+tr.odd {
+}
+
+li a.active {
+  color: #000;
+}
+
+.form-item, .form-checkboxes, .form-radios {
+  margin: 1em 0;
+}
+
+.form-item input.error, .form-item textarea.error, .form-item select.error {
+  border: 2px solid #c00;
+}
+
+.form-required {
+  color: #c00;
+}
+
+.form-item .description {
+  font-size: 0.85em;
+}
+
+.form-checkboxes .form-item, .form-radios .form-item {
+  margin: 0.4em 0;
+}
+
+.form-submit {
+}
+
+.container-inline div, .container-inline label {
+  display: inline;
+}
+
+.tips {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+#user-login-form ul {
+  margin-bottom: 0;
+}
+
+#user-login-form li.openid-link {
+  margin-top: 1em;
+  margin-left: -20px;
+}
+
+#user-login-form li.user-link {
+  margin-top: 1em;
+}
+
+#user-login ul {
+  margin: 1em 0;
+}
+
+#user-login li.openid-link, #user-login li.user-link {
+  margin-left: -2em;
+}
+
+form tbody {
+  border-top: 1px solid #ccc;
+}
+
+form th {
+  text-align: left;
+  padding-right: 1em;
+  border-bottom: 3px solid #ccc;
+}
+
+form tbody th {
+  border-bottom: 1px solid #ccc;
+}
+
+form thead th {
+  text-align: left;
+  padding-right: 1em;
+  border-bottom: 3px solid #ccc;
+}
+
+.region-content_homepage .block {
+  width: 330px;
+  float: left;
+}

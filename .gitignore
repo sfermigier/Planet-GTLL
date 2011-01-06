@@ -1,0 +1,10 @@
+syntax:glob
+
+env
+data
+*.pyc
+.idea
+.DS_Store
+.hg
+.hgignore
+

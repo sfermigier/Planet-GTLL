@@ -1,0 +1,286 @@
+/*--- CSS - Nuxeo Dev Center - lk@nuxeo.com - December 2010 ---*/
+
+/* Generic styles */
+
+body {
+  margin: 0;
+  color: #333;
+  font: normal 10pt/16pt 'Lucida Grande', Lucida, Arial, Helvetica, Sans-serif
+}
+
+a:link, a:visited, a:active {
+  color: #06c;
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+form {
+  display: inline
+}
+
+img {
+  border: none
+}
+
+h1 {
+  font-size: 160%;
+  font-weight: bold;
+  margin: 0.9em 0 0.5em;
+  border-bottom: 1px solid #ededed;
+  padding: 0 0 10px
+}
+
+h2 {
+  color: #0047a8;
+  font-size: 140%;
+  font-weight: bold;
+  margin: 0.6em 0;
+  padding: 0
+}
+
+h3 {
+  color: #555;
+  font-size: 130%;
+  font-weight: bold;
+  margin: 0.6em 0;
+  padding: 0
+}
+
+h4 {
+  color: #626262;
+  font-size: 120%;
+  font-weight: bold;
+  margin: 0.5em 0 0.3em;
+  padding: 0
+}
+
+h5, h6 {
+  color: #555;
+  font-size: 110%;
+  font-weight: bold;
+  margin: 0.4em 0 0.2em;
+  padding: 0
+}
+
+/* Main blocks */
+.content {
+  margin: 0 auto;
+  padding: 20px 10px;
+  width: 85%
+}
+
+.main {
+  float: left;
+  padding-bottom: 50px;
+  width: 62%
+}
+
+.intro {
+  margin: 15px 0 31px
+}
+
+.intro p {
+  font-size: 110%
+}
+
+/* events */
+
+.events .newevents {
+  text-align: center;
+  border: 1px solid #fff285;
+  margin-bottom: 10px
+}
+
+.events .newevents p {
+  background-color: #feffd3;
+  margin: 1px;
+}
+
+.events .event {
+  border-top: 1px solid #dedede;
+  padding: 7px 2px
+}
+
+.events .event:hover {
+  background-color: #e8f1ff
+}
+
+.events .event .type {
+  float: left;
+  width: 40px;
+  vertical-align: top
+}
+
+.events .event .description {
+  width: auto
+}
+
+.events .event .description p {
+  margin: 2px 0 5px 40px
+}
+
+.events .event .when {
+  font-size: 80%;
+  color: #aaa;
+  float: right
+}
+
+.events .event .share {
+  clear: both;
+  margin: -9px 0 0;
+  text-align: right
+}
+
+.clear { clear:both }
+
+/* /events */
+
+.right {
+  float: right;
+  font-size: 87%;
+  line-height: 14pt;
+  margin-top: 3px;
+  width: 30%
+}
+
+.right h3 {
+  background-color: #fff;
+  border-bottom: 3px solid #d1ffe7;
+  color: #003986;
+  margin-bottom: 1px;
+  padding: 3px
+}
+
+.right div div {
+  background-color: #f9f9f8;
+  margin-bottom: 20px;
+  padding: 8px 10px 10px
+}
+
+.right .documentation ul li {
+  background: url("/media/icons/bullet_go.png") 0 3px no-repeat;
+  padding: 2px 0 2px 20px
+}
+
+.right .downloads ul li {
+  background: url("/media/icons/bullet_disk.png") 0 3px no-repeat;
+  padding: 2px 0 2px 20px
+}
+
+.right .downloads ul.or li {
+  background: url("/media/icons/bullet_go.png") 0 10px no-repeat;
+  padding-top: 10px
+}
+
+.right .solutions ul li, .right .community ul li {
+  background: url("/media/icons/bullet.png") 0 3px no-repeat;
+  padding: 2px 0 2px 20px
+}
+
+.right .downloads li a {
+  color: #000;
+  font-family: Verdana;
+  font-weight: bold
+}
+
+.right .downloads .dm {
+  color: #3389e5
+}
+
+.right .downloads .dam {
+  color: #00a992
+}
+
+.right .downloads .cmf {
+  color: #97bf0d
+}
+
+.right .marketplace .marketplace {
+  color: #349cd2
+}
+
+.right .marketplace a {
+  color: #000;
+  font-family: Verdana;
+  font-weight: bold
+}
+
+.right .marketplace a span {
+  font-weight: normal
+}
+
+.right .subscribe img {
+  margin-right: 5px;
+  vertical-align: middle
+}
+
+.right .subscribe h3 {
+  border-bottom: 3px solid #fff696
+}
+
+/* JQuery tweet styles*/
+
+.right div div.tweet {
+  font-size: 95%;
+  padding: 0
+}
+
+.tweet .tweet_list li {
+  border-bottom: 1px solid #d1ffe7;
+  overflow: auto;
+  padding: .5em 0
+}
+
+.tweet .tweet_list li a {
+  color: #178C97
+}
+
+.tweet .tweet_list .tweet_avatar {
+  padding-right: .5em;
+  float: left
+}
+
+.tweet .tweet_list .tweet_avatar img {
+  vertical-align: middle
+}
+
+/* Specific styles */
+legend {
+  font-size: 11pt;
+  font-weight: bold;
+  background-color: #fff;
+  border: 1px solid #aebdc4;
+  padding: 1px 5px
+}
+
+fieldset {
+  border: 1px solid #aebdc4
+}
+
+fieldset.Legend {
+  margin-top: 50px
+}
+
+fieldset.Legend legend {
+  background-color: #ffef66;
+  border: medium none
+}
+
+fieldset.Legend span {
+  vertical-align: super;
+  padding-right: 15px
+}
+
+/* Buttons. */
+input.button:link, input.button:visited, input.button {
+  position: relative;
+  cursor: pointer
+}
+
+input.button:hover, input.button:hover {
+  color: #000
+}
+

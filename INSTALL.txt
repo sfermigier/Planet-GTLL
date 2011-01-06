@@ -1,0 +1,21 @@
+How to install?
+===============
+
+1. Install virtualenv and pip.
+
+Mac:
+
+$ port install py26-virtualenv py26-pip
+
+Linux:
+
+$ apt-get install python-virtualenv python-pip
+
+Etc.
+
+2. Install
+
+Type:
+
+$ pip install -E env -r dependencies.txt
+
