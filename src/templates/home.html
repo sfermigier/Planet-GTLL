@@ -12,7 +12,7 @@
     <div class="feedsBlock">
       {% for entry in entries %}
         {% if new_dates.has_key(entry) %}
-          <h3><em>{{ new_dates[entry] }}</em></h3>
+          <h3><em>{{ new_dates[entry].strftime("%b %d, %Y") }}</em></h3>
         {% endif %}
         <h2><a href="">{{ entry.source }}</a> : <a href="{{ entry.link }}">{{ entry.title }}</a></h2>
 

@@ -3,7 +3,7 @@
 
 
 import time
-from datetime import datetime
+import datetime
 
 from flask import *
 from werkzeug.contrib.atom import AtomFeed
@@ -49,8 +49,8 @@ def feed():
     for e in get_entries():
         feed.add(title=e.title, content=e.content, content_type='text/html',
                  author=e.author, url=e.link, id=e.id,
-                 updated=datetime.utcfromtimestamp(e.updated),
-                 published=datetime.utcfromtimestamp(e.published))
+                 updated=datetime.datetime.utcfromtimestamp(e.updated),
+                 published=datetime.datetime.utcfromtimestamp(e.published))
     return feed.get_response()
 
 # Debug
@@ -77,7 +77,7 @@ def get_new_dates(entries):
     l.sort(lambda x, y: -cmp(x[0], y[0]))
     new_dates = {}
     for date, l1 in l:
-        new_dates[l1[0]] = date
+        new_dates[l1[0]] = datetime.date(*date)
     return new_dates
 
 

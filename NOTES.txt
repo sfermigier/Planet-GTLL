@@ -1,11 +1,14 @@
 Goals for the Planetoid project
 ===============================
 
+Features
+--------
+
 - "Better planet than planetplanet"
 
 Why better?
 
-- Uses "standard" templating engine (ex: Jinja)
+- Uses a "standard" templating engine (ex: Jinja)
 - Archives
 - Filters <- killer feature for me
 
@@ -16,10 +19,14 @@ But still:
 Architecture
 ------------
 
+Here is a list of technical requirements / architecture specs:
+
 - Use Flask
-- Databased-backed (Which DB?)
+- Databased-backed (start with sqlite, but should be DB-independent)
 - Dynamic + static site generation
 - Uses feeparser
+- But also able to do screen-scrapping
+- Knows how to "fix" bad HTML content
 - Has unit tests
 - 1-line deploy using Fabric
 - 2 main processes communicating by sharing the database:

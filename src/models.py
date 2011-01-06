@@ -25,6 +25,7 @@ class Entry(Base):
     source = Column(String)
     link = Column(String)
     author = Column(String)
+    author_email = Column(String)
     title = Column(String)
     content = Column(String)
 
@@ -88,8 +89,12 @@ class Feed(Base):
                 updated = published
             if not published:
                 published = updated
+
+            author_email = e.get("author_detail", {}).get("email", "")
+                
             entry = Entry(id=id, source=self.id, link=e.link, author=author, title=e.title,
-                          content=content, published=published, updated=updated)
+                          content=content, published=published, updated=updated,
+                          author_email=author_email)
             session.add(entry)
         session.commit()
 

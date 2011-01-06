@@ -29,5 +29,5 @@ superclean: clean
 	rm -rf data/* env
 
 push:
-	rsync -avz -e ssh src Makefile dependencies.txt crawl.sh ring.cfg \
+	rsync -avz -e ssh src Makefile *.txt crawl.sh ring.cfg \
 		gtll@oss4cloud.org:/var/www/gtll-2.0/

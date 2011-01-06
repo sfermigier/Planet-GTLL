@@ -1,21 +1,25 @@
-Roadmap
-=======
+TODO
+----
 
 V. 0.1
 ------
 
 Focus: get the basic functionalities out.
 
-- Web server w/ templates
++ Web server w/ templates
++ Textfile-based configuration
+
 - File logging
 - Simple regex-based filters
-- Textfile based configuration
+
 
 V. 0.2
 ------
 
 Focus: fix issues w/ 0.1 + enhancements
 
+- Tests
+- Automatic deployment (Fabric)
 - Static generator
 - Logging
 - Support for several DBs
@@ -26,6 +30,11 @@ V. 0.3
 ------
 
 - Search
+
+V. 0.4
+------
+
+- Extract common functionalities as the "Ring" project.
 
 Later
 -----
