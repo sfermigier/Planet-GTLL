@@ -1,40 +1,35 @@
-TODO
-====
-
-V. 0.2
-------
-
-Focus: add a few goodies.
-
-+ Refactor to SQLAlchemy
-+ RSS feed
-+ Better parsing of the events
-+ template inheritance (needed for archive and user profiles)
-+ User activities
-
-- Archives
-- Fix twitterfeed notifs
-- "New since last visit"
-- mod_wsgi deployment
-- Better diffs for Confluence (ˆ la wikipedia)
-
-V. 0.3
-------
-
-- User profiles (w/ photo...)
-- Search (federated?)
-- Twitter notifications (currently done by twitterfeed).
-
-DONE
-====
+Roadmap
+=======
 
 V. 0.1
 ------
 
-Focus: implement functions defined by the graphical template.
+Focus: get the basic functionalities out.
 
-- Define plugin API
-- Storage
-- Crawler
-- Presenter
+- Web server w/ templates
+- File logging
+- Simple regex-based filters
+- Textfile based configuration
+
+V. 0.2
+------
+
+Focus: fix issues w/ 0.1 + enhancements
+
+- Static generator
+- Logging
+- Support for several DBs
+- Pluggable filters
+- Improve basic theme
+
+V. 0.3
+------
+
+- Search
+
+Later
+-----
+
+- Web admin of the app
+- Multi-domain
 

@@ -17,5 +17,16 @@ Etc.
 
 Type:
 
-$ pip install -E env -r dependencies.txt
+$ make
 
+3. Run
+
+a. Start the server with:
+
+$ make serve
+
+b. Crawl the feed with:
+
+$ ./crawl.sh
+
+(You might want to set up a crontab).

@@ -1,0 +1,27 @@
+Goals for the Planetoid project
+===============================
+
+- "Better planet than planetplanet"
+
+Why better?
+
+- Uses "standard" templating engine (ex: Jinja)
+- Archives
+- Filters <- killer feature for me
+
+But still:
+
+- Hype-easy to deploy
+
+Architecture
+------------
+
+- Use Flask
+- Databased-backed (Which DB?)
+- Dynamic + static site generation
+- Uses feeparser
+- Has unit tests
+- 1-line deploy using Fabric
+- 2 main processes communicating by sharing the database:
+  - 1 server (serves web pages)
+  - 1 crawler (crawls feeds)
