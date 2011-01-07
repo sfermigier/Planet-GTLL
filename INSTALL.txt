@@ -27,6 +27,6 @@ $ make serve
 
 b. Crawl the feed with:
 
-$ ./crawl.sh
+$ ./ring.sh crawl
 
 (You might want to set up a crontab).

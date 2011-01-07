@@ -9,9 +9,14 @@ from flask import *
 from werkzeug.contrib.atom import AtomFeed
 
 from models import Entry, Session
+from config import get_config
+
+config = get_config()
 
 
 # Constants (might go into a config file)
+from ring.config import config
+
 MAX_ENTRIES = 12
 
 # Real constants
@@ -24,7 +29,7 @@ YEAR = 365*DAY
 
 # Use /media instead of default /static because /static is already used.
 app = Flask(__name__, static_path='/media')
-
+app.jinja_loader.searchpath = ['./templates'] + app.jinja_loader.searchpath
 
 @app.before_request
 def connect_db():
@@ -43,9 +48,8 @@ def home():
 
 @app.route('/rss')
 def feed():
-    feed = AtomFeed("Planete GTLL", feed_url=request.url,
-                    url=request.host_url,
-                    subtitle="Nouvelles de l'écosystème du libre en IdF")
+    feed = AtomFeed(config.name, url=config.link, feed_url=request.url,
+                    subtitle=config.subtitile)
     for e in get_entries():
         feed.add(title=e.title, content=e.content, content_type='text/html',
                  author=e.author, url=e.link, id=e.id,
@@ -105,6 +109,9 @@ def age(t):
     return "%d years ago" % (dt/YEAR)
 
 
-if __name__ == '__main__':
+def main():
     app.run(debug=True)
+
+if __name__ == '__main__':
+    main()
 

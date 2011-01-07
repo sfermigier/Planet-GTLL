@@ -1,22 +1,28 @@
 """
 Models for persistent objects.
 """
-from pprint import pprint
+
 import time
 import feedparser
+import os
 
 from sqlalchemy import Column, String, Integer
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
+
+# TODO: move to config.
+ENGINE = "sqlite:///data/ring.db"
+
 # SQLAlchemy initialisation
 
 Base = declarative_base()
-engine = create_engine('sqlite:///data/ring.db')
+if ENGINE.startswith("sqlite:///data/") and not os.path.exists("data"):
+    os.mkdir("data")
+engine = create_engine(ENGINE)
 Session = sessionmaker(bind=engine)
 
-# Abstract base class
 
 class Entry(Base):
     __tablename__ = "entry"
@@ -39,7 +45,6 @@ class Entry(Base):
             setattr(self, k, v)
 
 
-
 class Feed(Base):
     __tablename__ = "feed"
 
@@ -55,6 +60,7 @@ class Feed(Base):
         for k, v in kw.items():
             setattr(self, k, v)
 
+    # TODO:move to crawler.
     def crawl(self):
         session = Session()
         raw_feed = feedparser.parse(self.url)

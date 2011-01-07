@@ -1,5 +1,7 @@
-#!/usr/bin/env python
+"""Crawler for ring.
 
+Responsible for
+"""
 import config
 from models import Feed
 
@@ -22,7 +24,9 @@ class Crawler(object):
             print "Crawling", source
             source.crawl()
 
-
-if __name__ == '__main__':
+def main():
     crawler = Crawler()
     crawler.crawl()
+
+if __name__ == '__main__':
+    main()

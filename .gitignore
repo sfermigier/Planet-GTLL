@@ -2,6 +2,11 @@ syntax:glob
 
 env
 data
+scratch
+build
+dist
+Ring.egg-info
+
 *.pyc
 .idea
 .DS_Store

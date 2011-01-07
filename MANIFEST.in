@@ -1,0 +1,4 @@
+include *.txt
+recursive-include ring/static *
+recursive-include ring/templates *
+recursive-include docs *.txt

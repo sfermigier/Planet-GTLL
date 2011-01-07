@@ -1,3 +1,6 @@
+"""Build & packaging script for Ring.
+"""
+
 from setuptools import setup, find_packages
 
 VERSION = '0.1.0'
@@ -25,15 +28,15 @@ def params():
     license = 'LGPL'
 
     packages = find_packages(exclude=['ez_setup'])
-    #namespace_packages = ['twistranet']
+    print packages
+    
+    #namespace_packages = ['ring']
     include_package_data = True
     zip_safe = False
     install_requires = open("dependencies.txt").read().split('\n')
-    entry_points = """
-    # -*- Entry points: -*-
-    [console_scripts]
-    ring=ring:main
-    """
+    entry_points = {
+        'console_scripts': ['ring = ring:main'],
+    }
     return locals()
 
 

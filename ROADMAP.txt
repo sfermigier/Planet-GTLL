@@ -11,7 +11,7 @@ Focus: get the basic functionalities out.
 
 - File logging
 - Simple regex-based filters
-
+- Web scrapping
 
 V. 0.2
 ------

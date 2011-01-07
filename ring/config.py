@@ -1,3 +1,6 @@
+"""Config reader.
+"""
+
 import ConfigParser
 import os
 
@@ -7,5 +10,5 @@ _config = ConfigParser.RawConfigParser()
 os.stat(DEFAULT_CONFIG)
 _config.read(DEFAULT_CONFIG)
 
-def config():
+def get_config():
     return _config

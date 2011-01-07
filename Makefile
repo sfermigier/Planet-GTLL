@@ -1,18 +1,18 @@
-.PHONY: test serve crawl run setup-env
+.PHONY: test serve crawl run setup-env install
 
 test: env data
 	PATH=env/bin:$(PATH) nosetests -v
 
 serve: env data
-	PATH=env/bin:$(PATH) python src/server.py
-
-data: 
-	mkdir data
+	./ring.sh serve
 
 run: serve
 
-crawl: env
-	./crawl.sh
+crawl: env data
+	./ring.sh crawl
+
+data: 
+	mkdir data
 
 env:
 	pip install --upgrade -s -E env -r dependencies.txt
@@ -27,6 +27,10 @@ clean:
 
 superclean: clean
 	rm -rf data/* env
+
+install:
+	python setup.py install
+
 
 push:
 	rsync -avz -e ssh src Makefile *.txt crawl.sh ring.cfg \
