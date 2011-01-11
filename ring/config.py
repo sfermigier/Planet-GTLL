@@ -10,5 +10,5 @@ _config = ConfigParser.RawConfigParser()
 os.stat(DEFAULT_CONFIG)
 _config.read(DEFAULT_CONFIG)
 
-def get_config():
+def config():
     return _config

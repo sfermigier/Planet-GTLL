@@ -2,7 +2,14 @@
 """
 
 __author__ = 'fermigier'
-__doc__ = """Usage: 'ring serve' or 'ring crawl'"""
+__doc__ = """Usage: ring <command> <options>
+
+Where command can be:
+
+- crawl
+- serve
+- scaffold [TODO]
+"""
 
 import sys
 import server

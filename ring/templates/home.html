@@ -1,22 +1,39 @@
 {% extends "layout.html" %}
 
-{% block h1 %}Bienvenue sur l'agregateur du GTLL{% endblock %}
+{% block h1 %}Bienvenue sur l'agrégateur du GTLL{% endblock %}
 
-{% block main %}
-    <!--div class="intro">
-      <p>
-        Blah blah trop cool le GTLL.
-      </p>
-    </div-->
+{% block content %}
+  {% for entry in entries %}
+    {% if new_dates.has_key(entry) %}
+      <h3><em>{{ new_dates[entry].strftime("%b %d, %Y") }}</em></h3>
+    {% endif %}
+    <h1>{{entry.source}} : <a href="{{entry.link}}">{{entry.title}}</a></h1>
 
-    <div class="feedsBlock">
-      {% for entry in entries %}
-        {% if new_dates.has_key(entry) %}
-          <h3><em>{{ new_dates[entry].strftime("%b %d, %Y") }}</em></h3>
-        {% endif %}
-        <h2><a href="">{{ entry.source }}</a> : <a href="{{ entry.link }}">{{ entry.title }}</a></h2>
-
-        {{ entry.content|safe }}
-      {% endfor %}
+    <div class="content">
+      {{entry.content|safe}}
     </div>
+  {% endfor %}
 {% endblock %}
+
+{% block sidebar %}
+<div class="block block-block odd">
+  <h3>Qui nous sommes</h3>
+
+  <div class="content">
+    <p>Blah blah.</p>
+
+  </div>
+</div>
+
+<div class="block block-block even">
+  <h3>Communauté</h3>
+
+  <p>
+    <a href="/rss"><img src="/media/img/icontexto-inside-rss.png"/></a>
+    <a href="http://www.linkedin.com/groups?mostPopular=&gid=3188107"><img src="/media/img/icontexto-inside-linkedin.png"/></a>
+  </p>
+
+</div>
+
+{% endblock %}
+

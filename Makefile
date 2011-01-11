@@ -22,7 +22,7 @@ setup-env:
 
 clean:
 	find . -name "*.pyc" | xargs rm -f
-	rm -f data/nuxeoorg.db
+	rm -rf build data dist Ring.egg-info
 	#rm -f test.db test/test.db
 
 superclean: clean
@@ -33,5 +33,5 @@ install:
 
 
 push:
-	rsync -avz -e ssh src Makefile *.txt crawl.sh ring.cfg \
+	rsync -avz -e ssh ring Makefile *.txt ring.sh ring.cfg \
 		gtll@oss4cloud.org:/var/www/gtll-2.0/

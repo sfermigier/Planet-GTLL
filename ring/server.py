@@ -9,14 +9,11 @@ from flask import *
 from werkzeug.contrib.atom import AtomFeed
 
 from models import Entry, Session
-from config import get_config
+from config import config
 
-config = get_config()
+CFG = config()
 
-
-# Constants (might go into a config file)
-from ring.config import config
-
+# Constants
 MAX_ENTRIES = 12
 
 # Real constants
@@ -25,6 +22,15 @@ HOUR = 60*MINUTE
 DAY = 24*HOUR
 MONTH = 30*DAY
 YEAR = 365*DAY
+
+BLOG = {
+    'title': u"Planète GTLL",
+    'tagline': u"Développer l'écosystème du libre en Ile-de-France",
+    'menu': [{'url': "", 'title': 'Home'},
+             #{'url': "about", 'title': 'About'},
+             #{'url': "category/public-speaking", 'title': 'Public Speaking'},
+    ]
+}
 
 
 # Use /media instead of default /static because /static is already used.
@@ -42,14 +48,15 @@ def connect_db():
 def home():
     entries = get_entries()
     new_dates = get_new_dates(entries)
-    response = make_response(render_template("home.html", entries=entries, new_dates=new_dates))
+    model = dict(entries=entries, new_dates=new_dates, blog=BLOG)
+    response = make_response(render_template("home.html", **model))
     return response
 
 
 @app.route('/rss')
 def feed():
-    feed = AtomFeed(config.name, url=config.link, feed_url=request.url,
-                    subtitle=config.subtitile)
+    feed = AtomFeed(CFG.name, url=CFG.link, feed_url=request.url,
+                    subtitle=CFG.subtitile)
     for e in get_entries():
         feed.add(title=e.title, content=e.content, content_type='text/html',
                  author=e.author, url=e.link, id=e.id,
