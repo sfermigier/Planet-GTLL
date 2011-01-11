@@ -2,38 +2,69 @@
 
 {% block h1 %}Bienvenue sur l'agrégateur du GTLL{% endblock %}
 
-{% block content %}
-  {% for entry in entries %}
-    {% if new_dates.has_key(entry) %}
-      <h3><em>{{ new_dates[entry].strftime("%b %d, %Y") }}</em></h3>
-    {% endif %}
-    <h1>{{entry.source}} : <a href="{{entry.link}}">{{entry.title}}</a></h1>
 
-    <div class="content">
-      {{entry.content|safe}}
-    </div>
-  {% endfor %}
+{% block content %}
+{% for entry in entries %}
+{% if new_dates.has_key(entry) %}
+<h3 class="newday"><em>{{ new_dates[entry].strftime("%a %d %B %Y") }}</em></h3>
+{% endif %}
+<div class="node clear-block">
+  <h1>[{{entry.source}}] : <a href="{{entry.link}}">{{entry.title}}</a></h1>
+
+  <div class="content">
+    {{entry.content|safe}}
+  </div>
+</div>
+{% endfor %}
 {% endblock %}
+
 
 {% block sidebar %}
 <div class="block block-block odd">
+  <p style="text-align: center;"><a href="http://www.systematic-paris-region.org/fr/logiciel-libre"><img
+          src="/media/img/systematic+GTLL.png" alt="logo GT Logiciel Libre"/></a></p>
+
   <h3>Qui nous sommes</h3>
 
   <div class="content">
-    <p>Blah blah.</p>
+    <p>La vocation du Groupe Thématique Logiciel Libre au sein du Pôle de compétitivité mondial
+      Systematic est de <strong>fédérer les acteurs du Logiciel Libre en Ile-de-France</strong>,
+      de <strong>promouvoir l'émergence d'une industrie saine et prospère du Logiciel Libre</strong>,
+      en contact étroit avec le monde de l'enseignement et de la recherche,
+      pour <strong>favoriser le développement de logiciels libres innovants</strong>
+      qui profitent des avancées scientifiques de l'Ile-de-France.</p>
 
+    <p><strong>21 projets</strong> de R&D, labellisés par le GT, ont déjà été financés
+      pour un <strong>coût total de plus de 60 M€</strong> et un montant de
+      <strong>subvention de plus de 25,5 M€</strong>.</p>
   </div>
 </div>
 
 <div class="block block-block even">
   <h3>Communauté</h3>
 
-  <p>
-    <a href="/rss"><img src="/media/img/icontexto-inside-rss.png"/></a>
-    <a href="http://www.linkedin.com/groups?mostPopular=&gid=3188107"><img src="/media/img/icontexto-inside-linkedin.png"/></a>
-  </p>
+  <div class="content">
+    <p>
+      <a href="/rss"><img alt="RSS" src="/media/img/icontexto-inside-rss.png"/></a>
+      <a href="http://www.linkedin.com/groups?mostPopular=&gid=3188107"><img alt="linkedin"
+                                                                             src="/media/img/icontexto-inside-linkedin.png"/></a>
+    </p>
+  </div>
 
 </div>
 
+<div class="block block-block odd">
+  <h3>À propos de ce site</h3>
+
+  <div class="content">
+
+    <p>Ce site est un agrégateur des contenus publiés sur les sites des membres du
+      GT Logiciel Libre de Systematic. En aucun cas, le contenu de ce site ne reflète
+      l'opinion de Systematic ou du groupe thématique Logiciel Libre.</p>
+
+    <p>Pour ajouter ou retirer un flux, n'hésitez pas à contacter
+      <em>l.seguin(à)systematic-paris-region.org</em>.</p>
+  </div>
+</div>
 {% endblock %}
 

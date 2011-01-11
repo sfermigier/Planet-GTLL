@@ -1149,20 +1149,40 @@ acronym, abbr, span.caps {
 acronym, abbr { border-bottom: 1px dashed #999999; }
 li { margin-left: 30px; }
 .tabs li { margin-left: 0; }
-h1, h2, h3, h4 { color: #3c78a7; }
-h1 { font: 2.3em Georgia, "Times New Roman"; }
-h2 { font: 1.8em Georgia, "Times New Roman"; }
-h3 {
-  font: 1.5em Georgia, "Times New Roman";
-  margin-bottom: 3px;
+
+h1, h2, h3, h4 {
+  color: #3c78a7;
+  padding-bottom: 0.5em;
 }
-h4 { font: 1.3em Georgia, "Times New Roman"; }
+
+h1 {
+  font: 2.3em Georgia, "Times New Roman", serif;
+}
+
+h2 {
+  font: 1.8em Georgia, "Times New Roman", serif;
+}
+
+h3 {
+  font: 1.5em Georgia, "Times New Roman", serif;
+}
+
+h4 {
+  font: 1.3em Georgia, "Times New Roman", serif;
+}
+
 code { font: 1em 'Courier New', Courier, Fixed; }
+
 blockquote {
   padding: 10px;
   line-height: 1.5em;
   margin: 10px;
 }
+
+blockquote p {
+  margin: 0;
+}
+
 #page blockquote {
   border-top: 1px solid #dae7f1;
   border-bottom: 1px solid #dae7f1;
@@ -1616,3 +1636,15 @@ blockquote {
   background: #3c78a7;
   color: #ffffff;
 }
+.newday {
+  border-bottom: 2px solid rgb(51, 51, 51);
+  margin-top: 0;
+  margin-bottom: 1em;
+  padding-bottom: 0.1em;
+  width: 100%;
+  letter-spacing: 0.03em;
+  color: rgb(60, 120, 167);
+  background: transparent none repeat scroll 0% 0%;
+  font-size: 2em;
+}
+
