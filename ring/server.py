@@ -24,8 +24,9 @@ MONTH = 30*DAY
 YEAR = 365*DAY
 
 BLOG = {
+    'url': 'http://www.gt-logiciel-libre.org/',
     'title': u"Planète GTLL",
-    'tagline': u"Développer l'écosystème du libre en Ile-de-France",
+    'tagline': u"Échos de l'écosystème du libre en Ile-de-France",
     'menu': [{'url': "", 'title': 'Home'},
              #{'url': "about", 'title': 'About'},
              #{'url': "category/public-speaking", 'title': 'Public Speaking'},
@@ -55,10 +56,11 @@ def home():
 
 @app.route('/rss')
 def feed():
-    feed = AtomFeed(CFG.name, url=CFG.link, feed_url=request.url,
-                    subtitle=CFG.subtitile)
+    feed = AtomFeed(BLOG['title'], url=BLOG['url'], feed_url=request.url,
+                    subtitle=BLOG['tagline'])
     for e in get_entries():
-        feed.add(title=e.title, content=e.content, content_type='text/html',
+        title = "[%s] %s" % (e.soure, e.title)
+        feed.add(title=title, content=e.content, content_type='text/html',
                  author=e.author, url=e.link, id=e.id,
                  updated=datetime.datetime.utcfromtimestamp(e.updated),
                  published=datetime.datetime.utcfromtimestamp(e.published))

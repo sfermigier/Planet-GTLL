@@ -2,8 +2,7 @@
 
 Responsible for
 """
-import config
-from models import Feed
+import config, models
 
 class Crawler(object):
 
@@ -16,7 +15,10 @@ class Crawler(object):
             d = {}
             d.update(cfg.items(section))
             print d
-            feed = Feed(id=section, **d)
+            if d.has_key("crawler"):
+                feed = getattr(models, d['crawler'])(id=section, **d)
+            else:
+                feed = models.Feed(id=section, **d)
             self.feeds.append(feed)
 
     def crawl(self):
