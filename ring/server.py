@@ -59,7 +59,7 @@ def feed():
     feed = AtomFeed(BLOG['title'], url=BLOG['url'], feed_url=request.url,
                     subtitle=BLOG['tagline'])
     for e in get_entries():
-        title = "[%s] %s" % (e.soure, e.title)
+        title = "[%s] %s" % (e.source, e.title)
         feed.add(title=title, content=e.content, content_type='text/html',
                  author=e.author, url=e.link, id=e.id,
                  updated=datetime.datetime.utcfromtimestamp(e.updated),

@@ -9,7 +9,7 @@
 <h3 class="newday"><em>{{ new_dates[entry].strftime("%a %d %B %Y") }}</em></h3>
 {% endif %}
 <div class="node clear-block">
-  <h1>[{{entry.source}}] : <a href="{{entry.link}}">{{entry.title}}</a></h1>
+  <h1>[{{entry.source}}] <a href="{{entry.link}}">{{entry.title}}</a></h1>
 
   <div class="content">
     {{entry.content|safe}}
