@@ -86,8 +86,10 @@ class Feed(Base):
 
             if e.has_key('content'):
                 content = e.content[0].value
-            else:
+            elif e.has_key('summary'):
                 content = e.summary
+            else:
+                content = ""
 
             if e.has_key('published_parsed'):
                 published = time.mktime(e.published_parsed)

@@ -1,4 +1,4 @@
-Goals for the Planetoid project
+Goals for the Ring project
 ===============================
 
 Features

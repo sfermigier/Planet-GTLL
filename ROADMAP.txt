@@ -1,5 +1,10 @@
+DONE
+====
+
+No release yet.
+
 TODO
-----
+====
 
 V. 0.1
 ------
@@ -8,33 +13,32 @@ Focus: get the basic functionalities out.
 
 + Web server w/ templates
 + Textfile-based configuration
++ Web scrapping
 
+- Tests
 - File logging
 - Simple regex-based filters
-- Web scrapping
+- Genericise
+- Make a proper release on PyPi
 
 V. 0.2
 ------
 
 Focus: fix issues w/ 0.1 + enhancements
 
-- Tests
+- Language detection + dynamic language presenting
 - Automatic deployment (Fabric)
 - Static generator
 - Logging
 - Support for several DBs
 - Pluggable filters
 - Improve basic theme
+- Archive
 
 V. 0.3
 ------
 
 - Search
-
-V. 0.4
-------
-
-- Extract common functionalities as the "Ring" project.
 
 Later
 -----
