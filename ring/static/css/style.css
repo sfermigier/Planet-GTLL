@@ -1387,7 +1387,10 @@ blockquote p {
   list-style: square;
   line-height: 1.7em;
 }
-#content .content ol li { list-style: inherit; }
+#content .content ol li {
+  list-style: inherit;
+  margin-bottom: 0.6em;
+}
 #content .content li ul li {
   list-style: square;
   margin-left: 20px;

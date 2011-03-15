@@ -48,6 +48,9 @@ class Entry(Base):
     def __init__(self, **kw):
         for k, v in kw.items():
             setattr(self, k, v)
+            
+    def __repr__(self):
+        return "<Entry id=%s>" % self.id
 
 
 class Feed(Base):
@@ -66,7 +69,7 @@ class Feed(Base):
             setattr(self, k, v)
 
     def __repr__(self):
-        return "<Feed id=%s>" % self.id
+        return "<Feed id=%s name=%s>" % (self.id, self.name)
 
     # TODO:move to crawler.
     def crawl(self):

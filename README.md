@@ -5,10 +5,12 @@ Ring aims at becoming a "Better planet than planetplanet"
 
 How better?
 
-- Uses a "standard" templating engine (ex: Jinja)
+- Uses a modern templating engine (Jinja)
 - Archives
-- Filters
+- Filters, NLP on feeds
+- Serves dynamic and static content
+- Extensible
 
 But still:
 
-- Hype-easy to deploy
+- Hyper-easy to deploy
