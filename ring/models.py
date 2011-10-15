@@ -73,6 +73,7 @@ class Feed(Base):
 
     # TODO:move to crawler.
     def crawl(self):
+        print "Crawling:", self.url
         session = Session()
         raw_feed = feedparser.parse(self.url)
 
