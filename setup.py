@@ -24,12 +24,12 @@ def params():
     keywords = 'Ring Planet Feed RSS Atom aggregator'
     author = 'Stefane Fermigier'
     author_email = 'sf@fermigier.com'
-    url = 'http://fermigier.com'
+    url = 'http://fermigier.com/'
     license = 'LGPL'
 
     packages = find_packages(exclude=['ez_setup'])
     print packages
-    
+   
     #namespace_packages = ['ring']
     include_package_data = True
     zip_safe = False

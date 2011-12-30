@@ -26,7 +26,7 @@ clean:
 	#rm -f test.db test/test.db
 
 superclean: clean
-	rm -rf data/* env
+	rm -rf data/* env *.egg
 
 install:
 	python setup.py install

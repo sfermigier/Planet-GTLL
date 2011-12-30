@@ -12,4 +12,5 @@ Ring.egg-info
 .DS_Store
 .hg
 .hgignore
+.tox
 
