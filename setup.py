@@ -28,8 +28,7 @@ def params():
     license = 'LGPL'
 
     packages = find_packages(exclude=['ez_setup'])
-    print packages
-   
+
     #namespace_packages = ['ring']
     include_package_data = True
     zip_safe = False

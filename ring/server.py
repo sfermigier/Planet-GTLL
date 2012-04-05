@@ -18,10 +18,10 @@ MAX_ENTRIES = 12
 
 # Real constants
 MINUTE = 60
-HOUR = 60*MINUTE
-DAY = 24*HOUR
-MONTH = 30*DAY
-YEAR = 365*DAY
+HOUR = 60 * MINUTE
+DAY = 24 * HOUR
+MONTH = 30 * DAY
+YEAR = 365 * DAY
 
 BLOG = {
     'url': 'http://www.gt-logiciel-libre.org/',
@@ -32,6 +32,16 @@ BLOG = {
              #{'url': "category/public-speaking", 'title': 'Public Speaking'},
     ]
 }
+
+try:
+    import newrelic.agent
+    import os
+    here = os.path.dirname(__file__)
+    newrelic.agent.initialize(os.path.join(here, '..', 'newrelic.ini'))
+except:
+    import traceback
+    traceback.print_exc()
+    pass
 
 
 # Use /media instead of default /static because /static is already used.
@@ -99,23 +109,23 @@ def age(t):
     dt = now - t
     if dt < MINUTE:
         return "%d seconds ago" % dt
-    if dt < 2*MINUTE:
+    if dt < 2 * MINUTE:
         return "about 1 minute ago"
     if dt < HOUR:
-        return "%d minutes ago" % (dt/MINUTE)
-    if dt < 2*HOUR:
+        return "%d minutes ago" % (dt / MINUTE)
+    if dt < 2 * HOUR:
         return "about 1 hour ago"
     if dt < DAY:
-        return "about %d hours ago" % (dt/HOUR)
-    if dt < 2*DAY:
+        return "about %d hours ago" % (dt / HOUR)
+    if dt < 2 * DAY:
         return "yesterday"
     if dt < MONTH:
-        return "about %d days ago" % (dt/DAY)
-    if dt < 2*MONTH:
+        return "about %d days ago" % (dt / DAY)
+    if dt < 2 * MONTH:
         return "last month"
     if dt < YEAR:
-        return "about %d months ago" % (dt/MONTH)
-    return "%d years ago" % (dt/YEAR)
+        return "about %d months ago" % (dt / MONTH)
+    return "%d years ago" % (dt / YEAR)
 
 
 def main():
@@ -123,4 +133,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
