@@ -43,7 +43,6 @@ except:
     traceback.print_exc()
     pass
 
-
 # Use /media instead of default /static because /static is already used.
 app = Flask(__name__, static_path='/media')
 app.jinja_loader.searchpath = ['./templates'] + app.jinja_loader.searchpath
@@ -129,7 +128,7 @@ def age(t):
 
 
 def main():
-    app.run(debug=True)
+    app.run(debug=True, port=5200)
 
 if __name__ == '__main__':
     main()

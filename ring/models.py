@@ -40,7 +40,7 @@ class Entry(Base):
     title = Column(String)
     content = Column(String)
 
-    published = Column(Integer, index=True)
+    published = Column(Integer)
     updated = Column(Integer)
 
     new_date = None
@@ -48,7 +48,7 @@ class Entry(Base):
     def __init__(self, **kw):
         for k, v in kw.items():
             setattr(self, k, v)
-
+            
     def __repr__(self):
         return "<Entry id=%s>" % self.id
 
@@ -62,6 +62,7 @@ class Feed(Base):
     home_url = Column(String)
 
     author = ""
+    
 
     def __init__(self, **kw):
         for k, v in kw.items():
@@ -81,7 +82,7 @@ class Feed(Base):
         self.title = raw_feed.feed.title
         for raw_entry in raw_feed.entries:
             id = raw_entry.get('id', raw_entry.link)
-            if session.query(Entry.id).filter(Entry.id == id).all():
+            if session.query(Entry.id).filter(Entry.id==id).all():
                 continue
             e = raw_entry
 
@@ -108,7 +109,7 @@ class Feed(Base):
                 published = updated
 
             author_email = e.get("author_detail", {}).get("email", "")
-
+                
             entry = Entry(id=id, source=self.id, link=e.link, author=author, title=e.title,
                           content=content, published=published, updated=updated,
                           author_email=author_email)
@@ -134,7 +135,7 @@ class GtllFeed(Feed):
 
         for slug, title in matches:
             id = slug
-            if session.query(Entry.id).filter(Entry.id == id).all():
+            if session.query(Entry.id).filter(Entry.id==id).all():
                 continue
 
             link = self.ROOT + slug

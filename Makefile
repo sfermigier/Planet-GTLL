@@ -32,6 +32,6 @@ install:
 	python setup.py install
 
 
-push:
-	rsync -avz -e ssh ring Makefile *.txt ring.sh ring.cfg \
-		gtll@oss4cloud.org:/var/www/gtll-2.0/
+#push:
+#	rsync -avz -e ssh ring Makefile *.txt ring.sh ring.cfg \
+#		gtll@gt-logiciel-libre.org:/var/www/gtll-2.0/
